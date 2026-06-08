@@ -1,11 +1,44 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <title>Mi Sitio Web</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>LIBRO ORIGINAL CODIGO 1%</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+      padding: 20px;
+    }
+    pre {
+      white-space: pre-wrap;
+      word-wrap: break-word;
+      background-color: #fff;
+      padding: 15px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      overflow-x: auto;
+    }
+  </style>
 </head>
 <body>
-    <h1>El sitio está activo</h1>
-    <p>Prueba de GitHub Pages exitosa.</p>
+
+<h1>LIBRO ORIGINAL CODIGO 1%</h1>
+
+<pre id="contenido">
+<!-- PEGAR AQUÍ EL CONTENIDO DEL ARCHIVO -->
+</pre>
+
+<script>
+  // Si quieres cargar el contenido desde un archivo externo (opcional)
+  fetch("codigo.txt")
+    .then(response => response.text())
+    .then(data => {
+      document.getElementById("contenido").textContent = data;
+    })
+    .catch(err => console.error("Error al cargar el archivo:", err));
+</script>
+
 </body>
 </html>
