@@ -7,6 +7,7 @@
     --font-serif: 'Georgia', 'Playfair Display', serif;
 
     /* Dark Mode Theme (Default) */
+    /* Dark Mode Theme (Default) */
     --bg-main: #06060c;
     --bg-surface: rgba(16, 16, 30, 0.65);
     --bg-sidebar: rgba(10, 10, 18, 0.95);
@@ -16,15 +17,15 @@
     --text-secondary: #a7a2c4;
     --text-muted: #5e5a7b;
     
-    --primary-color: #8a4bf3;
-    --primary-glow: rgba(138, 75, 243, 0.4);
-    --gold-color: #c9a84c;
-    --gold-glow: rgba(201, 168, 76, 0.35);
+    --primary-color: #D4AF37;
+    --primary-glow: rgba(212, 175, 55, 0.4);
+    --gold-color: #D4AF37;
+    --gold-glow: rgba(212, 175, 55, 0.35);
     
     --glass-blur: blur(20px);
     --glass-shadow: 0 10px 40px rgba(0, 0, 0, 0.5);
-    --sentence-highlight-bg: rgba(201, 168, 76, 0.15);
-    --sentence-highlight-border: #c9a84c;
+    --sentence-highlight-bg: rgba(212, 175, 55, 0.15);
+    --sentence-highlight-border: #D4AF37;
     
     --transition-smooth: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
     --transition-quick: all 0.15s ease;
@@ -41,12 +42,12 @@
     --text-secondary: #5a5475;
     --text-muted: #9590b2;
     
-    --primary-color: #7224ec;
-    --primary-glow: rgba(114, 36, 236, 0.2);
+    --primary-color: #b38f2e;
+    --primary-glow: rgba(179, 143, 46, 0.25);
     --gold-color: #b38f2e;
     --gold-glow: rgba(179, 143, 46, 0.25);
     
-    --glass-shadow: 0 10px 30px rgba(114, 36, 236, 0.06);
+    --glass-shadow: 0 10px 30px rgba(179, 143, 46, 0.06);
     --sentence-highlight-bg: rgba(179, 143, 46, 0.12);
     --sentence-highlight-border: #b38f2e;
 }
@@ -62,14 +63,14 @@
     --text-secondary: #6e5c4a;
     --text-muted: #a39281;
     
-    --primary-color: #9c5c24;
-    --primary-glow: rgba(156, 92, 36, 0.2);
-    --gold-color: #b38f2e;
-    --gold-glow: rgba(179, 143, 46, 0.25);
+    --primary-color: #a08030;
+    --primary-glow: rgba(160, 128, 48, 0.2);
+    --gold-color: #a08030;
+    --gold-glow: rgba(160, 128, 48, 0.2);
     
     --glass-shadow: 0 10px 35px rgba(90, 70, 50, 0.05);
-    --sentence-highlight-bg: rgba(179, 143, 46, 0.14);
-    --sentence-highlight-border: #b38f2e;
+    --sentence-highlight-bg: rgba(160, 128, 48, 0.14);
+    --sentence-highlight-border: #a08030;
 }
 
 /* ==========================================================================
