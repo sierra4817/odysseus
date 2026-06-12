@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lector Inteligente - El Capital Invisible</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,500;0,700;1,400&display=swap" rel="stylesheet">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="dark-theme">
+    <!-- Background glows -->
+    <div class="ambient-glow bg-glow-1"></div>
+    <div class="ambient-glow bg-glow-2"></div>
+
+    <div class="app-wrapper">
+        <!-- Sidebar: Chapter List -->
+        <aside class="sidebar" id="sidebar">
+            <div class="sidebar-header">
+                <div class="logo-area">
+                    <span class="logo-icon">✨</span>
+                    <h2>El Capital <span class="gold-text">Invisible</span></h2>
+                </div>
+                <button class="close-sidebar-btn" id="close-sidebar-mobile" aria-label="Cerrar menú">×</button>
+            </div>
+            <nav class="chapter-nav">
+                <ul id="chapter-list">
+                    <!-- Loaded dynamically from app.js -->
+                </ul>
+            </nav>
+        </aside>
+
+        <!-- Main Content Area -->
+        <main class="main-content">
+            <!-- Top Bar -->
+            <header class="top-bar">
+                <div class="top-bar-left">
+                    <button class="menu-toggle-btn" id="menu-toggle" aria-label="Ver capítulos">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <line x1="3" y1="12" x2="21" y2="12"></line>
+                            <line x1="3" y1="6" x2="21" y2="6"></line>
+                            <line x1="3" y1="18" x2="21" y2="18"></line>
+                        </svg>
+                    </button>
+                    <button class="btn-icon-bar" id="btn-go-home" title="Ir al Inicio / Biblioteca">
+                        <span class="home-icon-symbol">🏠</span>
+                        <span class="btn-text-desktop">Inicio</span>
+                    </button>
+                </div>
+                <div class="header-center">
+                    <h1 id="current-chapter-title">El Capital Invisible</h1>
+                </div>
+                <div class="top-bar-right">
+                    <div class="ebook-controls" id="ebook-controls">
+                        <button class="btn-font-size" id="font-decrease" title="Reducir letra">A-</button>
+                        <button class="btn-font-size" id="font-increase" title="Aumentar letra">A+</button>
+                        <select id="font-family-select" class="font-family-select" title="Familia de letra">
+                            <option value="serif" selected>Serif</option>
+                            <option value="sans-serif">Sans-Serif</option>
+                        </select>
+                    </div>
+                    <div class="theme-switch-wrapper">
+                        <button class="theme-toggle-btn" id="theme-toggle" title="Cambiar tema">
+                            <span class="theme-icon-indicator" id="theme-indicator">🌙</span>
+                        </button>
+                    </div>
+                </div>
+            </header>
+
+            <!-- Dashboard / Biblioteca View -->
+            <section class="dashboard-view" id="dashboard-view">
+                <div class="dashboard-container">
+                    <div class="dashboard-hero">
+                        <div class="book-cover-wrapper">
+                            <img src="cover.png" alt="Portada El Capital Invisible" class="book-cover-img" id="dashboard-cover">
+                            <div class="progress-ring-container">
+                                <svg class="progress-ring" width="120" height="120">
+                                    <circle class="progress-ring__circle-bg" stroke="rgba(255,255,255,0.06)" stroke-width="8" fill="transparent" r="50" cx="60" cy="60"/>
+                                    <circle class="progress-ring__circle" id="progress-circle-bar" stroke="var(--gold-color)" stroke-width="8" fill="transparent" r="50" cx="60" cy="60" stroke-dasharray="314.16" stroke-dashoffset="314.16"/>
+                                </svg>
+                                <div class="progress-ring-text">
+                                    <span id="dashboard-progress-percent">0%</span>
+                                    <small>Leído</small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="book-details">
+                            <span class="badge">🎧 AUDIOLIBRO + EBOOK INTERACTIVO</span>
+                            <h2 class="book-title">El Capital Invisible</h2>
+                            <p class="book-subtitle">Hackea tu sistema operativo mental: La arquitectura psicológica de la riqueza real</p>
+                            <p class="book-author">Por <strong>Albert Sierra</strong></p>
+                            <p class="book-description">
+                                Este libro no fue escrito para ser escuchado de fondo ni para acumular polvo digital en tu biblioteca. Fue diseñado como un manual táctico para alterar tu comportamiento financiero base. Aquí aprenderás a ver la riqueza no por tu nómina, sino por tu patrimonio real y tu capacidad de libertad.
+                            </p>
+                            
+                            <div class="dashboard-stats">
+                                <div class="stat-card">
+                                    <span class="stat-val" id="stat-chapters-count">21</span>
+                                    <span class="stat-lbl">Capítulos</span>
+                                </div>
+                                <div class="stat-card">
+                                    <span class="stat-val" id="stat-progress-chapters">0 / 21</span>
+                                    <span class="stat-lbl">Leídos</span>
+                                </div>
+                                <div class="stat-card">
+                                    <span class="stat-val">~2.5h</span>
+                                    <span class="stat-lbl">Escucha</span>
+                                </div>
+                            </div>
+
+                            <div class="dashboard-actions">
+                                <button class="btn-dashboard btn-primary-dash" id="btn-start-reading">
+                                    Comenzar a Leer ➔
+                                </button>
+                                <button class="btn-dashboard btn-secondary-dash hidden" id="btn-resume-reading">
+                                    Continuar Lectura
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="dashboard-chapters-section">
+                        <h3>Índice del Libro</h3>
+                        <div class="chapters-grid" id="chapters-grid">
+                            <!-- Loaded dynamically from app.js -->
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- E-Reader Pane -->
+            <article class="reader-pane hidden" id="reader-pane">
+                <div class="reader-container" id="reader-container">
+                    <!-- Text paragraphs loaded dynamically -->
+                </div>
+            </article>
+
+            <!-- Bottom Glassmorphic Controller -->
+            <footer class="player-bar hidden" id="player-bar-container">
+                <div class="player-header">
+                    <div class="equalizer-container" id="equalizer" style="margin-left: 0;">
+                        <div class="equalizer-bar"></div>
+                        <div class="equalizer-bar"></div>
+                        <div class="equalizer-bar"></div>
+                        <div class="equalizer-bar"></div>
+                        <div class="equalizer-bar"></div>
+                    </div>
+                    <span class="player-track-info" id="player-track-info" style="font-size: 0.85rem; font-weight: 700; color: var(--gold-color); margin-left: 0.75rem;">Reproduciendo Audio Real</span>
+                </div>
+
+                <div class="player-progress">
+                    <div class="progress-bar-bg" id="progress-bar-bg">
+                        <div class="progress-bar-fill" id="progress-bar-fill"></div>
+                    </div>
+                    <div class="progress-labels">
+                        <span id="progress-percent">0:00 / 0:00</span>
+                        <span id="progress-percentage-val">0%</span>
+                    </div>
+                </div>
+
+                <div class="player-controls">
+                    <div class="playback-buttons">
+                        <button class="player-btn btn-secondary" id="btn-prev" title="Retroceder 10s">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"/><path d="M3 3v5h5"/></svg>
+                        </button>
+                        <button class="player-btn btn-primary btn-play-pause" id="btn-play-pause" title="Reproducir">
+                            <svg class="play-svg" viewBox="0 0 24 24" fill="currentColor"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
+                            <svg class="pause-svg hidden" viewBox="0 0 24 24" fill="currentColor"><rect x="6" y="4" width="4" height="16"></rect><rect x="14" y="4" width="4" height="16"></rect></svg>
+                        </button>
+                        <button class="player-btn btn-secondary" id="btn-stop" title="Detener">
+                            <svg viewBox="0 0 24 24" fill="currentColor"><rect x="4" y="4" width="16" height="16" rx="2"></rect></svg>
+                        </button>
+                        <button class="player-btn btn-secondary" id="btn-next" title="Adelantar 10s">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12a9 9 0 1 1-9-9 9.75 9.75 0 0 1 6.74 2.74L21 8"/><path d="M21 3v5h-5"/></svg>
+                        </button>
+                    </div>
+
+                    <div class="speed-controls">
+                        <label for="speed-select">Velocidad:</label>
+                        <select id="speed-select" class="custom-select">
+                            <option value="0.75">0.75x</option>
+                            <option value="1.0" selected>1.0x</option>
+                            <option value="1.2">1.2x</option>
+                            <option value="1.5">1.5x</option>
+                            <option value="1.8">1.8x</option>
+                            <option value="2.0">2.0x</option>
+                        </select>
+                    </div>
+                </div>
+            </footer>
+        </main>
+    </div>
+
+    <!-- Hidden native audio element -->
+    <audio id="audio-element"></audio>
+
+    <!-- Scripts -->
+    <script src="app.js"></script>
+</body>
+</html>
