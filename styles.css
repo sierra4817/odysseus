@@ -21,6 +21,7 @@
     --primary-glow: rgba(212, 175, 55, 0.4);
     --gold-color: #D4AF37;
     --gold-glow: rgba(212, 175, 55, 0.35);
+    --liquid-gold: linear-gradient(135deg, #bf953f 0%, #fcf6ba 25%, #b38728 50%, #fbf5b7 75%, #aa771c 100%);
     
     --glass-blur: blur(20px);
     --glass-shadow: 0 10px 40px rgba(0, 0, 0, 0.5);
@@ -164,7 +165,10 @@ body {
 }
 
 .gold-text {
-    color: var(--gold-color);
+    background: var(--liquid-gold);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
 }
 
 .close-sidebar-btn {
@@ -498,7 +502,7 @@ body {
 .progress-bar-fill {
     height: 100%;
     width: 0%;
-    background: linear-gradient(90deg, var(--primary-color), var(--gold-color));
+    background: var(--liquid-gold);
     border-radius: 100px;
     transition: width 0.15s ease;
 }
@@ -575,14 +579,14 @@ body {
 .btn-primary {
     width: 60px;
     height: 60px;
-    background: linear-gradient(135deg, var(--gold-color), #f7df8f);
-    color: #0d0b16;
-    box-shadow: 0 4px 15px var(--gold-glow);
+    background: var(--liquid-gold) !important;
+    color: #0d0b16 !important;
+    box-shadow: 0 4px 15px rgba(179, 143, 46, 0.4), inset 0 1px 0 rgba(255, 255, 255, 0.2);
 }
 
 .btn-primary:hover {
     transform: scale(1.08);
-    box-shadow: 0 6px 20px var(--gold-color);
+    box-shadow: 0 6px 20px rgba(179, 143, 46, 0.6), inset 0 1px 0 rgba(255, 255, 255, 0.3);
 }
 
 .btn-secondary {
@@ -960,7 +964,10 @@ body {
 .stat-val {
     font-size: 1.5rem;
     font-weight: 800;
-    color: var(--gold-color);
+    background: var(--liquid-gold);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
 }
 
 .stat-lbl {
@@ -989,15 +996,15 @@ body {
 }
 
 .btn-primary-dash {
-    background: linear-gradient(135deg, var(--gold-color), #f7df8f);
-    color: #0d0b16;
-    box-shadow: 0 4px 15px var(--gold-glow);
+    background: var(--liquid-gold) !important;
+    color: #0d0b16 !important;
+    box-shadow: 0 4px 15px rgba(179, 143, 46, 0.4), inset 0 1px 0 rgba(255, 255, 255, 0.2);
     border: none;
 }
 
 .btn-primary-dash:hover {
     transform: scale(1.03);
-    box-shadow: 0 6px 20px var(--gold-color);
+    box-shadow: 0 6px 20px rgba(179, 143, 46, 0.6), inset 0 1px 0 rgba(255, 255, 255, 0.3);
 }
 
 .btn-secondary-dash {

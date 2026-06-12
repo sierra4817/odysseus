@@ -80,8 +80,17 @@
                             <img src="cover.png" alt="Portada El Capital Invisible" class="book-cover-img" id="dashboard-cover">
                             <div class="progress-ring-container">
                                 <svg class="progress-ring" width="120" height="120">
+                                    <defs>
+                                        <linearGradient id="liquid-gold-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+                                            <stop offset="0%" stop-color="#bf953f" />
+                                            <stop offset="25%" stop-color="#fcf6ba" />
+                                            <stop offset="50%" stop-color="#b38728" />
+                                            <stop offset="75%" stop-color="#fbf5b7" />
+                                            <stop offset="100%" stop-color="#aa771c" />
+                                        </linearGradient>
+                                    </defs>
                                     <circle class="progress-ring__circle-bg" stroke="rgba(255,255,255,0.06)" stroke-width="8" fill="transparent" r="50" cx="60" cy="60"/>
-                                    <circle class="progress-ring__circle" id="progress-circle-bar" stroke="var(--gold-color)" stroke-width="8" fill="transparent" r="50" cx="60" cy="60" stroke-dasharray="314.16" stroke-dashoffset="314.16"/>
+                                    <circle class="progress-ring__circle" id="progress-circle-bar" stroke="url(#liquid-gold-grad)" stroke-width="8" fill="transparent" r="50" cx="60" cy="60" stroke-dasharray="314.16" stroke-dashoffset="314.16"/>
                                 </svg>
                                 <div class="progress-ring-text">
                                     <span id="dashboard-progress-percent">0%</span>
