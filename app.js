@@ -26,7 +26,7 @@ const bookData = [
                     "Fue diseñado como un manual táctico.",
                     "No encontrarás aquí teoría económica abstracta ni fórmulas de relleno para parecer inteligente.",
                     "Encontrarás principios crudos y directos que puedes ejecutar hoy mismo.",
-                    "El objetivo no es que aprendas más sobre dinero; el mundo está lleno de gente pobre con mucha información.",
+                    "El objetivo no es que aprendas más sobre dinero; el mundo está lleno de gente con mucha información financiera y pocos resultados.",
                     "El objetivo es alterar tu comportamiento base.",
                     "La información sin ejecución es solo ruido.",
                     "Si buscas entretenimiento, cierra este audio y abre Netflix.",
@@ -322,7 +322,7 @@ const bookData = [
                     "**Tres:** La Regla de las Setenta y Dos Horas.",
                     "Prohíbete comprar nada que cueste más de cien dólares en el momento.",
                     "Espera setenta y dos horas.",
-                    "El noventa por ciento de las veces, el pico de dopamina habrá bajado."
+                    "La mayoría de las veces, el pico de dopamina habrá bajado."
                 ]
             },
             {
@@ -339,8 +339,8 @@ const bookData = [
                     "Capítulo tres.",
                     "El mito de la suerte: La estadística premia a la preparación.",
                     "La suerte existe, pero no es una estrategia financiera.",
-                    "El noventa y nueve por ciento de la gente pobre utiliza la suerte como escudo psicológico.",
-                    "Si el éxito de tu vecino es suerte, entonces tú no tienes la culpa de tu mediocridad."
+                    "Es fácil usar la suerte como escudo psicológico:",
+                    "si el éxito de tu vecino es suerte, entonces no tienes que revisar tus propias decisiones."
                 ]
             },
             {
@@ -351,7 +351,7 @@ const bookData = [
                 "type": "p",
                 "sentences": [
                     "Matemáticamente, la lotería es un impuesto voluntario a la gente que no sabe matemáticas.",
-                    "Estás comprando una probabilidad de una entre quince millones de hacerte rico.",
+                    "Estás comprando una probabilidad de una entre varios millones de hacerte rico.",
                     "Es más probable que te caiga un rayo.",
                     "Invertir requiere paciencia.",
                     "La lotería vende esperanza sin esfuerzo.",
@@ -530,7 +530,7 @@ const bookData = [
                     "El negocio de los bancos es que pagues el mínimo.",
                     "Si solo pagas el mínimo de tu tarjeta, tardarás décadas en liquidarla y pagarás el triple en intereses.",
                     "Las tarjetas desacoplan el dolor del pago del placer del consumo.",
-                    "Gastas un veinte por ciento más cuando usas plástico que cuando usas efectivo."
+                    "Gastas más, y con menos control, cuando usas plástico que cuando usas efectivo."
                 ]
             },
             {
@@ -965,8 +965,8 @@ const bookData = [
                 "type": "p",
                 "sentences": [
                     "Si guardas diez mil dólares bajo el colchón, en diez años seguirás teniendo los mismos billetes, pero comprarán la mitad de cosas.",
-                    "La inflación is el impuesto a la ignorancia.",
-                    "Quedarse en efectivo es perder un tres por ciento anual garantizado.",
+                    "La inflación es el impuesto a la ignorancia.",
+                    "Quedarse en efectivo es perder poder adquisitivo cada año frente a la inflación.",
                     "Para mantener tu poder adquisitivo, estás obligado a invertir."
                 ]
             },
@@ -1064,8 +1064,8 @@ const bookData = [
                     "Descubrirás que tu hora real vale mucho menos de lo que crees.",
                     "Y eso hace que cada gasto sea más doloroso.",
                     "Subcontratación de servicios: Comprar Vida.",
-                    "El pobre valora el dinero por encima del tiempo.",
-                    "El rico valora el tiempo por encima del dinero.",
+                    "Quien tiene dificultades económicas suele valorar el dinero por encima del tiempo;",
+                    "quien ya tiene patrimonio suele valorar el tiempo por encima del dinero.",
                     "Si tu hora vale treinta dólares, no hagas tareas que puedes delegar por quince.",
                     "Paga a alguien para que limpie tu casa.",
                     "Estás comprando tiempo de vida a mitad de precio.",
@@ -1133,8 +1133,8 @@ const bookData = [
             {
                 "type": "p",
                 "sentences": [
-                    "Cuando compras una acción de Apple, eres dueño legal de una fracción de la empresa.",
-                    "Tim Cook trabaja para ti.",
+                    "Cuando compras una acción de una gran empresa cotizada, eres dueño legal de una fracción de ese negocio.",
+                    "Su consejero delegado trabaja, en la práctica, para ti.",
                     "Tú pones el capital, te sientas y esperas.",
                     "Es la forma más pura de capitalismo."
                 ]
@@ -1443,8 +1443,8 @@ const bookData = [
                 "sentences": [
                     "El Gobierno no confía en tu bondad para pagar impuestos; te los quita de la nómina antes de que los veas.",
                     "Haz tú lo mismo con tu inversión.",
-                    "La fórmula del pobre es: Ingresos menos Gastos es igual a Ahorro, donde nunca sobra nada.",
-                    "Por el contrario, la fórmula del rico es: Ingresos menos Inversión es igual a Gastos, donde lo que queda es lo que se usa para vivir.",
+                    "La fórmula habitual es: Ingresos menos Gastos es igual a Ahorro, donde nunca sobra nada.",
+                    "La fórmula que funciona es: Ingresos menos Inversión es igual a Gastos, donde lo que queda es lo que se usa para vivir.",
                     "La inversión es una factura más, la factura de tu libertad, y se paga la primera."
                 ]
             },
@@ -1535,19 +1535,19 @@ const bookData = [
             {
                 "type": "p",
                 "sentences": [
-                    "**Primero,** en el Nivel Bajo, el de los pobres, hablan de Personas, es decir, de cotilleos y críticas."
+                    "**Primero,** en un entorno de escasez suele hablarse de Personas, es decir, de cotilleos y críticas."
                 ]
             },
             {
                 "type": "p",
                 "sentences": [
-                    "**Segundo,** en el Nivel Medio, el de la clase media, hablan de Cosas, como coches, deportes, eventos y compras."
+                    "**Segundo,** en un entorno de clase media suele hablarse de Cosas, como coches, deportes, eventos y compras."
                 ]
             },
             {
                 "type": "p",
                 "sentences": [
-                    "**Tercero,** en el Nivel Alto, el de los ricos, hablan de Ideas, esto es, de negocios, inversiones, tendencias y futuro.",
+                    "**Tercero,** en un entorno orientado al largo plazo suele hablarse de Ideas, esto es, de negocios, inversiones, tendencias y futuro.",
                     "Si en tu mesa solo se habla de fútbol o de chismes, cambia de mesa."
                 ]
             },
@@ -1789,7 +1789,7 @@ const bookData = [
             {
                 "type": "p",
                 "sentences": [
-                    "Si tu contraseña es \"uno, dos, tres, cuatro, cinco, seis\", no mereces ser rico.",
+                    "Si tu contraseña es \"uno, dos, tres, cuatro, cinco, seis\", estás regalando tu patrimonio.",
                     "Usa un gestor de contraseñas y activa el Doble Factor de Autenticación en todas tus cuentas financieras."
                 ]
             },
@@ -1906,7 +1906,7 @@ const bookData = [
                 "type": "p",
                 "sentences": [
                     "**Tres:** Cierra el Libro y Ejecuta.",
-                    "El conocimiento sin acción es masturbación mental.",
+                    "El conocimiento sin acción es solo ruido.",
                     "No leas otro libro hasta que hayas automatizado tus cuentas.",
                     "Empieza hoy.",
                     "Bienvenido al club del Capital Invisible.",
