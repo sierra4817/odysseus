@@ -711,6 +711,9 @@ const chapterAudios = [
 let currentChapterIndex = 0;
 let isPlaying = false;
 let playbackRate = 1.0;
+let sentencesList = [];
+let currentSentenceIndex = -1;
+let sentenceTimeBoundaries = [];
 
 // Persistent User Progress & Settings
 let completedChapters = [];
@@ -1130,6 +1133,12 @@ function loadChapter(chapterIndex) {
     audioElement.load();
     audioElement.playbackRate = playbackRate;
 
+    sentenceTimeBoundaries = [];
+    audioElement.addEventListener('loadedmetadata', function onMeta() {
+        audioElement.removeEventListener('loadedmetadata', onMeta);
+        computeSentenceTimeBoundaries(audioElement.duration);
+    });
+
     updateProgressBar();
     
     if (wasPlaying) {
@@ -1161,8 +1170,35 @@ function updateProgressBar() {
     progressBarFill.style.width = `${percentage}%`;
 }
 
+function computeSentenceTimeBoundaries(duration) {
+    if (!duration || !sentencesList.length) {
+        sentenceTimeBoundaries = [];
+        return;
+    }
+    const weights = sentencesList.map(s => Math.max(s.length, 1));
+    const totalWeight = weights.reduce((a, b) => a + b, 0);
+    let cumulative = 0;
+    sentenceTimeBoundaries = weights.map(w => {
+        cumulative += w;
+        return (cumulative / totalWeight) * duration;
+    });
+}
+
+const SENTENCE_SYNC_LAG = 0.6; // segundos: compensa las pausas entre frases que no entran en la estimacion
+
+function updateSentenceSync() {
+    if (!sentenceTimeBoundaries.length) return;
+    const curTime = Math.max(audioElement.currentTime - SENTENCE_SYNC_LAG, 0);
+    let newIndex = sentenceTimeBoundaries.findIndex(boundary => curTime < boundary);
+    if (newIndex === -1) newIndex = sentenceTimeBoundaries.length - 1;
+    if (newIndex !== currentSentenceIndex) {
+        highlightSentenceDOM(newIndex);
+    }
+}
+
 function updateAudioProgress() {
     updateProgressBar();
+    updateSentenceSync();
 }
 
 function formatTime(seconds) {
