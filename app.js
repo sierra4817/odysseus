@@ -1,1955 +1,709 @@
 const bookData = [
     {
-        "title": "PRÓLOGO E INTRODUCCIÓN",
+        "title": "Portada y aviso legal",
         "sections": [
             {
                 "type": "p",
                 "sentences": [
-                    "El Capital Invisible.",
-                    "Hackea tu sistema operativo mental: La arquitectura psicológica de la riqueza real.",
-                    "Escrito por Albert Sierra.",
-                    "Copyright de la edición en audio, año dos mil veintiséis, por Albert Sierra.",
-                    "Todos los derechos reservados.",
-                    "Aviso de exención de responsabilidad: Este audiolibro está diseñado para proporcionar información sobre el tema tratado.",
-                    "Se distribuye con el entendimiento de que el autor no se dedica a prestar servicios legales, contables o financieros.",
-                    "Si se requiere asistencia legal o asesoramiento experto, se deben buscar los servicios de un profesional competente."
+                    "CAPITAL INVISIBLE",
+                    "La arquitectura psicológica de la riqueza real",
+                    "Albert Sierra",
+                    "Copyright 2026. Todos los derechos reservados.",
+                    "Aviso: este libro está diseñado para proporcionar información sobre el tema tratado. Se distribuye con el entendimiento de que el autor no presta servicios legales, contables ni financieros. Si necesitas asesoramiento legal, fiscal o de inversión para tu situación particular, consulta a un profesional cualificado.",
+                    "Este libro puede incluir referencias a inversión, ahorro o riesgo financiero. Toda inversión conlleva riesgo, incluida la posible pérdida del capital invertido; los resultados pasados no garantizan resultados futuros. La información fiscal y legal varía según el país y la fecha: este contenido refleja el conocimiento del autor en la fecha de publicación (2026) y no sustituye el asesoramiento de un profesional colegiado en tu jurisdicción."
                 ]
-            },
-            {
-                "type": "h4",
-                "text": "Nota del autor: Esto no es lectura, es entrenamiento"
-            },
-            {
-                "type": "p",
-                "sentences": [
-                    "Este libro no fue escrito para ser escuchado de fondo ni para acumular polvo digital en tu biblioteca.",
-                    "Fue diseñado como un manual táctico.",
-                    "No encontrarás aquí teoría económica abstracta ni fórmulas de relleno para parecer inteligente.",
-                    "Encontrarás principios crudos y directos que puedes ejecutar hoy mismo.",
-                    "El objetivo no es que aprendas más sobre dinero; el mundo está lleno de gente con mucha información financiera y pocos resultados.",
-                    "El objetivo es alterar tu comportamiento base.",
-                    "La información sin ejecución es solo ruido.",
-                    "Si buscas entretenimiento, cierra este audio y abre Netflix.",
-                    "Si buscas resultados, bienvenido."
-                ]
-            },
-            {
-                "type": "h4",
-                "text": "Introducción: El dinero no te va a salvar"
-            },
-            {
-                "type": "p",
-                "sentences": [
-                    "Si compraste este libro buscando una fórmula mágica para hacerte rico en treinta días, puedes detener la reproducción ahora mismo.",
-                    "Si buscas consuelo porque sientes que el sistema es injusto y la culpa de tu pobreza es del gobierno, de tu jefe o de los bancos, este libro tampoco es para ti.",
-                    "Hay miles de autores dispuestos a venderte esa mentira compasiva.",
-                    "Yo no.",
-                    "El dinero es un amplificador.",
-                    "Si eres un desastre y te doy un millón de dólares, ahora serás un desastre con un millón de dólares...",
-                    "por muy poco tiempo.",
-                    "Pronto volverás a ser solo un desastre, pero con más deudas y una depresión.",
-                    "El dinero no cambia quién eres; revela quién eres.",
-                    "Magnifica tus hábitos, grita tus inseguridades y pone un foco cegador sobre tu falta de disciplina.",
-                    "La premisa de este libro es dolorosa pero necesaria: el problema financiero que tienes hoy no es matemático, es conductual.",
-                    "Seguramente sabes sumar y restar.",
-                    "Sabes que si gastas más de lo que ganas, te arruinas.",
-                    "Sabes que las tarjetas de crédito tienen intereses abusivos.",
-                    "Intelectualmente, entiendes el concepto de ahorro.",
-                    "Y, sin embargo, sigues tomando decisiones pésimas.",
-                    "Sigues comprando cosas que no necesitas para impresionar a gente que no te importa.",
-                    "Sigues esperando el \"golpe de suerte\" o el aumento de sueldo que, mágicamente, arreglará todo.",
-                    "Déjame decirte la verdad: Más ingresos no arreglan un problema de gasto, del mismo modo que echar gasolina a un coche con el tanque agujereado no arregla la fuga.",
-                    "He pasado años viendo a personas ganar loterías, herencias o sueldos astronómicos, solo para terminar en la quiebra cinco años después.",
-                    "Y he visto a personas con sueldos mediocres construir imperios de libertad financiera.",
-                    "La diferencia nunca fue la cifra en el cheque.",
-                    "La diferencia fue el Capital Invisible.",
-                    "El Capital Invisible es la arquitectura mental que sostiene la riqueza.",
-                    "Es la capacidad de posponer la gratificación.",
-                    "Es la habilidad de distinguir entre precio y valor.",
-                    "Es el control emocional para no vender cuando el mercado cae, ni comprar cuando la euforia sube.",
-                    "Es la disciplina de vivir por debajo de tus posibilidades hoy para vivir como nadie puede mañana.",
-                    "En las siguientes páginas, no voy a tratarte con suavidad.",
-                    "Vamos a diseccionar tus creencias sobre el dinero.",
-                    "Vamos a matar al consumidor impulsivo que llevas dentro y vamos a entrenar al inversor racional.",
-                    "Te enseñaré a ver el riesgo, a entender el interés compuesto no como una fórmula, sino como una filosofía de vida, y a construir un sistema que te proteja de tu peor enemigo financiero: tú mismo.",
-                    "Este libro no es justo.",
-                    "La vida tampoco lo es.",
-                    "El mercado no tiene sentimientos.",
-                    "A la inflación no le importa si eres buena persona.",
-                    "Pero si logras instalar este nuevo sistema operando en tu cerebro, si logras acumular suficiente Capital Invisible, el dinero dejará de ser una fuente de ansiedad para convertirse en lo que siempre debió ser: una simple herramienta de libertad."
-                ]
-            },
-            {
-                "type": "hr"
             }
         ]
     },
     {
-        "title": "CAPÍTULO I: La trampa del hámster",
+        "title": "Índice",
         "sections": [
             {
                 "type": "p",
                 "sentences": [
-                    "Capítulo uno.",
-                    "La trampa del hámster: Diferencia letal entre ingresos y riqueza.",
-                    "Hay una alucinación colectiva que destruye más futuros financieros que cualquier crisis económica.",
-                    "Es la creencia de que ingresos es igual a riqueza.",
-                    "Es el error fundacional.",
-                    "Es la grieta en los cimientos que hará que todo el edificio se derrumbe tarde o temprano.",
-                    "La mayoría de la gente mide su éxito financiero por cuánto entra en su cuenta a fin de mes.",
-                    "Piensan: gano cinco mil dólares al mes, así que estoy bien; o me han subido el sueldo a cien mil al año, ahora soy rico.",
-                    "Falso.",
-                    "Eres un hámster corriendo más rápido en una rueda que no va a ninguna parte."
+                    "Índice",
+                    "Prólogo e introducción",
+                    "Capítulo I. La trampa de confundir ingresos con riqueza",
+                    "Capítulo II. El coste de los sesgos cognitivos",
+                    "Capítulo III. Suerte, azar y preparación",
+                    "Capítulo IV. La inflación de estilo de vida en detalle",
+                    "Capítulo V. Deuda de consumo frente a deuda productiva",
+                    "Capítulo VI. El presupuesto como mapa, no como dieta",
+                    "Capítulo VII. El fondo de emergencia",
+                    "Capítulo VIII. El interés compuesto",
+                    "Capítulo IX. Los límites de ahorrar sin invertir",
+                    "Capítulo X. El precio real del tiempo",
+                    "Capítulo XI. Especular frente a invertir",
+                    "Capítulo XII. Riesgo frente a volatilidad",
+                    "Capítulo XIII. La vivienda: entre el activo y el pasivo",
+                    "Capítulo XIV. Diversificación y sesgo de exceso de confianza",
+                    "Capítulo XV. Automatizar para no depender de la fuerza de voluntad",
+                    "Capítulo XVI. El entorno social y las finanzas",
+                    "Capítulo XVII. Definir el \"suficiente\"",
+                    "Capítulo XVIII. Paciencia como estrategia",
+                    "Capítulo XIX. Proteger lo construido",
+                    "Capítulo XX. Capital Invisible"
                 ]
-            },
-            {
-                "type": "h4",
-                "text": "La Ley de Parkinson Financiera"
-            },
-            {
-                "type": "p",
-                "sentences": [
-                    "¿Por qué ocurre esto?",
-                    "Por la Ley de Parkinson: los gastos siempre se expanden hasta cubrir la totalidad de los ingresos disponibles.",
-                    "Cuando te suben el sueldo, tu cerebro no dice: genial, ahora puedo ahorrar más.",
-                    "Tu cerebro dice: genial, ahora puedo comprar el coche que es un poco mejor, la casa un poco más grande y el vino un poco más caro.",
-                    "Llamamos a esto"
-                ]
-            },
-            {
-                "type": "h4",
-                "text": "Inflación de Estilo de Vida"
-            },
-            {
-                "type": "p",
-                "sentences": [
-                    "Es la trampa del hámster.",
-                    "Corres más rápido porque ganas más, pero la rueda gira más rápido porque gastas más.",
-                    "La distancia recorrida es cero.",
-                    "De hecho, es peor: cuanto más ganas, más crédito te ofrecen los bancos, y más grande es el agujero que cavas.",
-                    "He visto a personas ganando medio millón de dólares al año declararse en bancarrota.",
-                    "No es falta de dinero; es falta de control."
-                ]
-            },
-            {
-                "type": "h4",
-                "text": "Ingresos es Velocidad, Riqueza es Distancia"
-            },
-            {
-                "type": "p",
-                "sentences": [
-                    "Debes grabar esto en tu mente:"
-                ]
-            },
-            {
-                "type": "p",
-                "sentences": [
-                    "**Primero,** ingresos es lo que entra.",
-                    "Es vanidad.",
-                    "Es velocidad."
-                ]
-            },
-            {
-                "type": "p",
-                "sentences": [
-                    "**Segundo,** patrimonio o riqueza es lo que se queda.",
-                    "Es sanidad.",
-                    "Es la distancia que puedes recorrer sin trabajar.",
-                    "Tu riqueza no se mide por tu nómina.",
-                    "Se mide por tu"
-                ]
-            },
-            {
-                "type": "h4",
-                "text": "Patrimonio Neto"
-            },
-            {
-                "type": "p",
-                "sentences": [
-                    "La fórmula es desastrosamente simple y brutalmente honesta: Activos, que es lo que tienes, menos Pasivos, que es lo que debes, es igual a tu Riqueza Real.",
-                    "Si vendes todo lo que tienes hoy, tu casa, tu coche, tu ropa y tus inversiones, y pagas todas tus deudas, como la hipoteca, las tarjetas y los préstamos, ¿cuánto queda?",
-                    "Esa cifra es tu realidad.",
-                    "Para muchos, esa cifra es negativa."
-                ]
-            },
-            {
-                "type": "h4",
-                "text": "El Síndrome del Impostor Inverso"
-            },
-            {
-                "type": "p",
-                "sentences": [
-                    "El problema de confundir ingresos con riqueza es que te vuelve frágil.",
-                    "Te obliga a mantener un nivel de ingresos perpetuo solo para sostener la estructura de gastos que has creado.",
-                    "Te conviertes en un adicto a tu sueldo.",
-                    "No puedes dejar ese trabajo que odias.",
-                    "No puedes emprender.",
-                    "No puedes enfermarte.",
-                    "La riqueza real es lo que no se ve.",
-                    "Es el dinero que no se gastó en el reloj de lujo.",
-                    "Es el dinero que no se fue en el coche nuevo.",
-                    "La riqueza es opción.",
-                    "Es la capacidad de levantarte por la mañana y decir: hoy no tengo que hacer nada si no quiero."
-                ]
-            },
-            {
-                "type": "h4",
-                "text": "Protocolo de acción del capítulo uno"
-            },
-            {
-                "type": "p",
-                "sentences": [
-                    "Deja de escuchar y haz esto ahora.",
-                    "La ignorancia se acaba hoy."
-                ]
-            },
-            {
-                "type": "p",
-                "sentences": [
-                    "**Uno:** Calcula tu Patrimonio Neto Real.",
-                    "Suma el valor de reventa realista de todo lo que posees y resta hasta el último céntimo de deuda.",
-                    "Mira el número.",
-                    "Esa es tu nota del examen hasta hoy."
-                ]
-            },
-            {
-                "type": "p",
-                "sentences": [
-                    "**Dos:** Calcula tu Tasa de Ahorro.",
-                    "Toma tus ingresos del último mes y lo que ahorraste.",
-                    "Divide el ahorro entre los ingresos.",
-                    "Si es el cero por ciento, eres un esclavo financiero."
-                ]
-            },
-            {
-                "type": "p",
-                "sentences": [
-                    "**Tres:** El Mantra.",
-                    "Cada vez que vayas a comprar algo esta semana, repite mentalmente: ¿esto aumenta mi patrimonio o solo aumenta mi estatus temporal?",
-                    "Si es estatus, no lo compres."
-                ]
-            },
-            {
-                "type": "hr"
             }
         ]
     },
     {
-        "title": "CAPÍTULO II: El coste de la ignorancia",
+        "title": "Prólogo e introducción",
         "sections": [
             {
                 "type": "p",
                 "sentences": [
-                    "Capítulo dos.",
-                    "El coste de la ignorancia: Tu cerebro está diseñado para perder dinero.",
-                    "Si crees que tomas decisiones financieras basadas en la lógica, te estás mintiendo.",
-                    "La economía clásica se basa en una falacia ridícula: la idea del Homo Economicus, un ser racional.",
-                    "Ese ser no existe.",
-                    "Tú eres un Homo Sapiens Emocional.",
-                    "Eres un primate con ropa y un teléfono inteligente, gobernado por químicos cerebrales que te gritan que gastes todo ahora y huyas del dolor inmediato."
+                    "PRÓLOGO E INTRODUCCIÓN",
+                    "Nota del autor: un libro para actuar, no solo para leer",
+                    "Este libro no está pensado para acumular polvo en una estantería. Está pensado como un manual de trabajo: un conjunto de principios que se pueden poner a prueba, no una teoría económica para presumir de vocabulario en una cena.",
+                    "El objetivo no es que aprendas más datos sobre el dinero — el mundo está lleno de personas con mucha información financiera y pocos resultados financieros. El objetivo es que entiendas por qué, sabiendo lo que sabes, sigues actuando en contra de tu propio interés, y qué hacer al respecto. Si buscas una lectura de entretenimiento pasajero, este no es el libro. Si buscas comprender el mecanismo y aplicarlo, sigue leyendo.",
+                    "Introducción: el dinero no te va a salvar",
+                    "Si compraste este libro buscando una fórmula para hacerte rico en treinta días, puedes cerrarlo ahora mismo: no existe. Y si buscas la confirmación de que tu situación financiera es culpa exclusiva del gobierno, de tu jefe o de los bancos, tampoco vas a encontrarla aquí. Esas fuerzas existen y pesan — sería deshonesto negarlo — pero centrar la explicación únicamente en ellas suele dejar a la persona sin ninguna palanca que pueda accionar. Este libro se ocupa de la parte que sí depende de ti.",
+                    "El dinero funciona como un amplificador, no como una cura. Quien gestiona mal sus recursos y de pronto recibe una suma importante no se convierte en otra persona: se convierte en la misma persona, con más capacidad para repetir los mismos errores a mayor escala. El dinero no cambia el carácter; lo revela. Amplifica los hábitos que ya existían, para bien o para mal.",
+                    "La premisa central de este libro es incómoda pero está respaldada por la evidencia: para la mayoría de los hogares, el problema financiero no es de conocimiento, es de comportamiento. La aritmética del ahorro no es difícil. Casi todo el mundo entiende que gastar más de lo que se ingresa lleva al endeudamiento, y que los intereses de una tarjeta de crédito son costosos. El problema no es la falta de información; es la brecha entre lo que sabemos y lo que hacemos.",
+                    "Los datos lo confirman de forma recurrente: estudios sobre ganadores de lotería y receptores de herencias muestran una proporción llamativa de personas que, años después, se encuentran en una posición financiera similar o peor a la de partida. Y, en sentido inverso, hay una literatura amplia — desde el trabajo de Thomas Stanley sobre los \"millonarios de la puerta de al lado\" hasta la experiencia de cualquier asesor financiero con años de trayectoria — que documenta a personas con ingresos modestos que construyen patrimonios sólidos. La variable que mejor explica la diferencia no es el ingreso; son los hábitos sostenidos en el tiempo.",
+                    "A ese conjunto de hábitos —la capacidad de posponer la gratificación, de distinguir precio de valor, de mantener el rumbo cuando el mercado se mueve en cualquier dirección— este libro lo llama Capital Invisible. No aparece en ningún balance, pero es la variable que más pesa en el resultado final.",
+                    "Las páginas que siguen examinan, capítulo a capítulo, un sesgo o una creencia concreta que sabotea las finanzas personales, con la evidencia disponible y los límites de esa evidencia, y proponen una acción concreta para contrarrestarlo. No es un libro neutral: tiene un punto de vista y lo defiende con franqueza. Pero cada capítulo intenta señalar también dónde ese punto de vista tiene matices, porque una idea que se presenta sin sus límites deja de ser información y se convierte en dogma — y de dogmas financieros ya hay suficientes en el mercado."
                 ]
-            },
-            {
-                "type": "h4",
-                "text": "Dopamina frente a Serotonina"
-            },
-            {
-                "type": "p",
-                "sentences": [
-                    "Cada vez que ver un par de zapatos nuevos, tu cerebro libera dopamina, que genera placer inmediato.",
-                    "Por el contrario, el acto de ahorrar e invertir es, biológicamente, doloroso.",
-                    "Tu cerebro primitivo lo interpreta como una pérdida de recursos.",
-                    "Cuando apartas quinientos dólares para tu yo del futuro, tu cerebro límbico grita: ¡espera!",
-                    "¡podríamos usar eso para obtener placer hoy!",
-                    "Invertir requiere serotonina, que da satisfacción a largo plazo, y función ejecutiva.",
-                    "Pero la dopamina es más rápida, más ruidosa y más adictiva."
-                ]
-            },
-            {
-                "type": "h4",
-                "text": "Aversión a la Pérdida"
-            },
-            {
-                "type": "p",
-                "sentences": [
-                    "El dolor de perder mil dólares es psicológicamente dos veces más intenso que la alegría de ganar mil dólares.",
-                    "¿Cómo se traduce esto en tu ruina?",
-                    "Cuando la bolsa cae, vendes por miedo, materializando la pérdida.",
-                    "Cuando la bolsa sube, compras por euforia, comprando caro.",
-                    "Es la receta perfecta para la quiebra, y está programada en tu ADN."
-                ]
-            },
-            {
-                "type": "h4",
-                "text": "Descuento Hiperbólico: El Futuro No Existe"
-            },
-            {
-                "type": "p",
-                "sentences": [
-                    "Tu cerebro valora el ahora desproporcionadamente más que cualquier futuro.",
-                    "Es la razón por la que la gente se endeuda con tarjetas de crédito al veinticinco por ciento de interés.",
-                    "Valoran tanto el consumo presente que están dispuestos a esclavizar su futuro."
-                ]
-            },
-            {
-                "type": "h4",
-                "text": "Protocolo de acción del capítulo dos"
-            },
-            {
-                "type": "p",
-                "sentences": [
-                    "Es hora de poner barreras contra ti mismo."
-                ]
-            },
-            {
-                "type": "p",
-                "sentences": [
-                    "**Uno:** Automatización Radical.",
-                    "Si el dinero llega a tu mano, lo gastarás.",
-                    "Configura transferencias automáticas a tus cuentas de inversión el mismo día que cobras."
-                ]
-            },
-            {
-                "type": "p",
-                "sentences": [
-                    "**Dos:** Fricción Intencional.",
-                    "Desvincula tu tarjeta de crédito de Amazon y borra las aplicaciones de compras."
-                ]
-            },
-            {
-                "type": "p",
-                "sentences": [
-                    "**Tres:** La Regla de las Setenta y Dos Horas.",
-                    "Prohíbete comprar nada que cueste más de cien dólares en el momento.",
-                    "Espera setenta y dos horas.",
-                    "La mayoría de las veces, el pico de dopamina habrá bajado."
-                ]
-            },
-            {
-                "type": "hr"
             }
         ]
     },
     {
-        "title": "CAPÍTULO III: El mito de la suerte",
+        "title": "Capítulo 1: La trampa de confundir ingresos con riqueza",
         "sections": [
             {
                 "type": "p",
                 "sentences": [
-                    "Capítulo tres.",
-                    "El mito de la suerte: La estadística premia a la preparación.",
-                    "La suerte existe, pero no es una estrategia financiera.",
-                    "Es fácil usar la suerte como escudo psicológico:",
-                    "si el éxito de tu vecino es suerte, entonces no tienes que revisar tus propias decisiones."
+                    "Capítulo I. La trampa de confundir ingresos con riqueza",
+                    "Por qué un buen sueldo no es lo mismo que libertad financiera",
+                    "Uno de los errores más extendidos en la educación financiera informal es asumir que ingresos y riqueza son sinónimos. No lo son, y confundirlos tiene consecuencias prácticas serias: lleva a medir el propio progreso con la métrica equivocada.",
+                    "La mayoría de las personas evalúan su situación financiera por lo que entra en la cuenta a fin de mes. \"Gano cinco mil al mes, así que estoy bien\" es un razonamiento habitual, pero incompleto: dice cuánto se mueve, no cuánto se acumula. Es la diferencia entre velocidad y distancia recorrida — se puede correr muy rápido sin avanzar nada si se corre en círculos.",
+                    "La ley de Parkinson aplicada al dinero",
+                    "El economista Cyril Northcote Parkinson observó, originalmente sobre el trabajo administrativo, que las tareas se expanden hasta llenar el tiempo disponible para completarlas. La misma lógica opera con el gasto: los gastos tienden a expandirse hasta cubrir la totalidad del ingreso disponible, salvo que se interponga una barrera deliberada.",
+                    "Cuando el ingreso sube, la reacción por defecto no suele ser \"ahora puedo ahorrar más\", sino \"ahora puedo permitirme un poco más de todo\": el coche algo mejor, la casa algo más grande, la cena algo más cara. A esto se le llama inflación de estilo de vida.",
+                    "Inflación de estilo de vida",
+                    "El mecanismo es simple y silencioso: cada subida de sueldo se traduce en un aumento equivalente del gasto, de modo que la distancia entre ingresos y gastos —el margen real de ahorro— se mantiene igual o se reduce, nunca crece. Y hay un efecto agravante: cuanto más se gana, más crédito ofrecen los bancos, lo que permite sostener durante más tiempo un nivel de gasto que en realidad no se puede financiar con ingresos corrientes. No es infrecuente ver a personas con ingresos anuales de varios cientos de miles de dólares en dificultades financieras serias; el problema no suele ser la cifra de entrada, sino la ausencia de un límite al gasto.",
+                    "Ingresos es velocidad, patrimonio es distancia",
+                    "Conviene fijar la distinción con precisión:",
+                    "•  Ingresos es el flujo: lo que entra en un periodo determinado. Es una medida de actividad, no de acumulación.",
+                    "•  Patrimonio neto es el saldo: lo que queda después de restar las deudas a los activos. Es la medida que en realidad importa, porque representa la distancia que se puede recorrer sin necesidad de seguir generando ingresos.",
+                    "La pregunta relevante nunca es \"¿cuánto gano?\", sino \"¿cuánto tengo, una vez descontado lo que debo?\".",
+                    "El patrimonio neto como punto de partida",
+                    "La fórmula es sencilla: activos (lo que se posee) menos pasivos (lo que se debe) es igual al patrimonio neto. Es un ejercicio incómodo pero clarificador: si hoy se vendiera todo —vivienda, vehículo, inversiones— y se liquidaran todas las deudas —hipoteca, tarjetas, préstamos—, ¿cuánto quedaría? Para una parte considerable de la población en países desarrollados, esa cifra es cercana a cero o negativa, incluso con ingresos aparentemente cómodos.",
+                    "La dependencia estructural del sueldo",
+                    "Confundir ingresos con riqueza tiene un efecto colateral: vuelve financieramente frágil a quien lo hace. Si la estructura de gastos está calibrada al último céntimo del ingreso actual, cualquier interrupción de ese ingreso —un despido, una enfermedad, una decisión de cambiar de carrera— se convierte en una crisis inmediata. La persona queda atada a mantener el ingreso, no porque lo elija, sino porque no tiene alternativa.",
+                    "La riqueza real no siempre es visible: es, en buena medida, el dinero que no se gastó. Es la opción de decir \"hoy no tengo obligación de trabajar\", aunque esa opción no se ejerza nunca.",
+                    "Un matiz necesario",
+                    "El patrimonio neto es una fotografía, no la película completa. No captura el capital humano —la formación, la experiencia, la red de contactos— que determina la capacidad futura de generar ingresos, y que en las primeras etapas de una carrera puede ser el activo más valioso que existe, aunque no aparezca en ningún balance. Un patrimonio neto bajo a los veinticinco años con una trayectoria profesional sólida es una situación muy distinta a la misma cifra a los cincuenta y cinco. La métrica importa, pero hay que leerla junto con la trayectoria, no de forma aislada.",
+                    "Aplicación práctica",
+                    "Tres ejercicios para pasar del diagnóstico general a la cifra concreta.",
+                    "1. Calcula tu patrimonio neto real. Suma el valor de reventa realista de lo que posees y resta la totalidad de tu deuda. El número resultante, sea cual sea, es tu punto de partida objetivo.",
+                    "2. Calcula tu tasa de ahorro. Divide lo que ahorraste el último mes entre tus ingresos de ese mes. Si el resultado es cero, es la primera cifra que conviene empezar a mover.",
+                    "3. Antes de cada compra no esencial, pregúntate: ¿esto aumenta mi patrimonio o solo mi nivel de consumo aparente? No es una prohibición; es una pausa de un segundo antes de decidir."
                 ]
-            },
-            {
-                "type": "h4",
-                "text": "El Impuesto a la Estupidez: La Lotería"
-            },
-            {
-                "type": "p",
-                "sentences": [
-                    "Matemáticamente, la lotería es un impuesto voluntario a la gente que no sabe matemáticas.",
-                    "Estás comprando una probabilidad de una entre varios millones de hacerte rico.",
-                    "Es más probable que te caiga un rayo.",
-                    "Invertir requiere paciencia.",
-                    "La lotería vende esperanza sin esfuerzo.",
-                    "Si tu plan financiero incluye la palabra \"ojalá\", ya estás arruinado."
-                ]
-            },
-            {
-                "type": "h4",
-                "text": "La Suerte se Fabrica: El Área de Superficie"
-            },
-            {
-                "type": "p",
-                "sentences": [
-                    "Imagina la suerte como una lluvia.",
-                    "Si te quedas en casa, no te mojas.",
-                    "Si sales y te expones, aumentas tu superficie de contacto.",
-                    "Los ricos no buscan suerte; buscan Asimetría Positiva: apuestas donde el riesgo es bajo y limitado, pero la recompensa es potencialmente infinita, como emprender un negocio paralelo o formarse."
-                ]
-            },
-            {
-                "type": "h4",
-                "text": "Protocolo de acción del capítulo tres"
-            },
-            {
-                "type": "p",
-                "sentences": [
-                    "Aumenta tu superficie de suerte."
-                ]
-            },
-            {
-                "type": "p",
-                "sentences": [
-                    "**Uno:** La Regla del Sí Incómodo.",
-                    "Durante treinta días, di sí a cualquier oportunidad profesional que te dé miedo pero tenga asimetría positiva."
-                ]
-            },
-            {
-                "type": "p",
-                "sentences": [
-                    "**Dos:** Elimina la Lotería.",
-                    "Invierte lo que gastabas en boletos en libros o en tu fondo indexado."
-                ]
-            },
-            {
-                "type": "p",
-                "sentences": [
-                    "**Tres:** Análisis de Mala Suerte.",
-                    "Piensa en tu último fracaso.",
-                    "¿Qué parte fue realmente mala suerte y qué parte fue falta de preparación?"
-                ]
-            },
-            {
-                "type": "hr"
             }
         ]
     },
     {
-        "title": "CAPÍTULO IV: La inflación de estilo de vida",
+        "title": "Capítulo 2: El coste de los sesgos cognitivos",
         "sections": [
             {
                 "type": "p",
                 "sentences": [
-                    "Capítulo cuatro.",
-                    "La inflación de estilo de vida: Ganar más solo te hará quebrar más rápido.",
-                    "Existe una tragedia moderna: te suben el sueldo, pero seis meses después estás más endeudado y estresado que antes.",
-                    "Has sido víctima de la Inflación de Estilo de Vida: la demanda de lujos se convierte en necesidad en el momento en que puedes pagarlos."
+                    "Capítulo II. El coste de los sesgos cognitivos",
+                    "Por qué el cerebro no está calibrado para el ahorro a largo plazo",
+                    "La economía clásica parte de un supuesto conveniente: el Homo economicus, un agente que decide de forma racional para maximizar su beneficio. La economía conductual, desarrollada en gran parte por Daniel Kahneman y Amos Tversky desde los años setenta, mostró que ese agente no existe. Las decisiones financieras reales están mediadas por atajos mentales y respuestas emocionales que evolucionaron para resolver problemas de supervivencia inmediata, no para optimizar una cartera a treinta años.",
+                    "Recompensa inmediata frente a recompensa diferida",
+                    "Un estímulo de consumo inmediato —una compra, una comida, una notificación— activa circuitos de recompensa que generan placer a corto plazo. Ahorrar e invertir, en cambio, no ofrecen esa recompensa inmediata: el cerebro registra la privación presente con más intensidad que el beneficio futuro, que es abstracto y lejano. Esto no es un defecto de carácter; es una arquitectura neurológica compartida por toda la especie, y explica por qué la fuerza de voluntad, por sí sola, es una estrategia poco fiable a largo plazo.",
+                    "Aversión a la pérdida",
+                    "Kahneman y Tversky documentaron que el malestar de perder una cantidad de dinero es, en promedio, entre 1,5 y 2,5 veces más intenso que el placer de ganar la misma cantidad. La consecuencia práctica en los mercados es conocida: cuando las cotizaciones caen, la reacción instintiva es vender para detener el dolor, lo que convierte una caída temporal en una pérdida definitiva; cuando suben, la euforia empuja a comprar en el peor momento, cuando los precios ya están altos.",
+                    "Descuento hiperbólico",
+                    "El descuento hiperbólico es la tendencia a valorar una recompensa inmediata de forma desproporcionada frente a una recompensa mayor pero futura. Es, en parte, la explicación de por qué existe un mercado de crédito al consumo con intereses del veinte por ciento o más: quien lo usa está valorando el consumo de hoy muy por encima del coste que pagará su versión futura.",
+                    "Un matiz necesario",
+                    "Describir estos sesgos no equivale a decir que son inevitables. La evidencia en economía conductual muestra también que los sesgos se pueden neutralizar, no con más fuerza de voluntad, sino rediseñando el entorno de decisión: automatizando lo que debería ser automático y añadiendo fricción a lo que debería costar más esfuerzo. Ese es, de hecho, el argumento detrás de las políticas de \"enrolamiento automático\" en planes de pensiones, que han demostrado subir de forma notable las tasas de participación sin restringir la libertad de nadie: quien quiere salir, puede hacerlo, pero la opción por defecto ya no es la inacción.",
+                    "Aplicación práctica",
+                    "Tres formas de rediseñar el entorno en lugar de depender de la voluntad.",
+                    "1. Automatización. Configura una transferencia automática a tu cuenta de inversión el mismo día en que cobras, antes de que el dinero pase por tu decisión consciente.",
+                    "2. Fricción intencional. Desvincula la tarjeta de las aplicaciones de compra rápida. Cada segundo adicional que tarda una compra reduce la probabilidad de que sea impulsiva.",
+                    "3. La regla de las setenta y dos horas. Para cualquier compra no esencial por encima de un umbral que definas, espera setenta y dos horas antes de decidir. La mayoría de los impulsos pierden fuerza en ese plazo."
                 ]
-            },
-            {
-                "type": "h4",
-                "text": "El Efecto Diderot"
-            },
-            {
-                "type": "p",
-                "sentences": [
-                    "Cuando compras algo nuevo y lujoso, como un coche o un iPhone, de repente tus cosas viejas parecen basura.",
-                    "Sientes la necesidad de reemplazar todo para mantener la coherence.",
-                    "Es una espiral sin fin.",
-                    "No has mejorado tu vida; solo has encarecido tu existencia."
-                ]
-            },
-            {
-                "type": "h4",
-                "text": "El Mito del \"Me lo Merezco\""
-            },
-            {
-                "type": "p",
-                "sentences": [
-                    "Has tenido una semana dura.",
-                    "Estás cansado.",
-                    "Piensas: me merezco un capricho.",
-                    "Y compras algo que no habías planeado.",
-                    "Cuidado.",
-                    "Mereces cosas buenas, pero merecerlas no significa que debas comprarlas ahora sin pensarlo.",
-                    "Usas las emociones para justificar decisiones financieras.",
-                    "Un día difícil no es razón para romper tu plan.",
-                    "El verdadero premio no es gastar.",
-                    "Es tener tranquilidad económica.",
-                    "Es poder dormir sin preocuparte por el extracto de la tarjeta.",
-                    "Date caprichos, pero planifícalos.",
-                    "Cuando los esperas y los pagas con dinero disponible, los disfrutas más."
-                ]
-            },
-            {
-                "type": "h4",
-                "text": "Las Esposas de Oro"
-            },
-            {
-                "type": "p",
-                "sentences": [
-                    "Cuando subes tu nivel de vida al máximo de tus ingresos, te pones unas Esposas de Oro.",
-                    "Pareces rico, pero eres vulnerable.",
-                    "No puedes dejar tu trabajo, no puedes emprender, no puedes enfermarte.",
-                    "La verdadera riqueza no es la capacidad de gastar, es la capacidad de dejar de ingresar sin que tu vida colapse."
-                ]
-            },
-            {
-                "type": "h4",
-                "text": "Protocolo de acción del capítulo cuatro"
-            },
-            {
-                "type": "p",
-                "sentences": [
-                    "Hackea la inflación de vida."
-                ]
-            },
-            {
-                "type": "p",
-                "sentences": [
-                    "**Uno:** La Regla del cincuenta por ciento.",
-                    "Cada vez que recibas un aumento, el cincuenta por ciento va a inversión y el otro cincuenta por ciento a mejorar tu vida."
-                ]
-            },
-            {
-                "type": "p",
-                "sentences": [
-                    "**Dos:** La Prueba del Extraño.",
-                    "Mira tu coche caro.",
-                    "Si un extraño te ofreciera su valor en efectivo, ¿qué preferirías?",
-                    "Si prefieres el dinero, véndelo."
-                ]
-            },
-            {
-                "type": "p",
-                "sentences": [
-                    "**Tres:** Define \"Suficiente\".",
-                    "Escribe qué necesitas realmente para ser feliz.",
-                    "Una vez llegues a ese nivel, deja de inflar tu vida."
-                ]
-            },
-            {
-                "type": "hr"
             }
         ]
     },
     {
-        "title": "CAPÍTULO V: Deuda mala frente a Deuda mortal",
+        "title": "Capítulo 3: Suerte, azar y preparación",
         "sections": [
             {
                 "type": "p",
                 "sentences": [
-                    "Capítulo cinco.",
-                    "Deuda mala frente a Deuda mortal: Cómo cavar tu propia tumba.",
-                    "La deuda es la única herramienta que permite comprar cosas que no puedes permitirte, para impresionar a gente que no te importa, hipotecando un futuro que aún no tienes.",
-                    "Cuando te endeudas para consumir, no compras un producto.",
-                    "Estás vendiendo una parte de tu vida futura."
+                    "Capítulo III. Suerte, azar y preparación",
+                    "Por qué la estadística premia la exposición, no la fe",
+                    "El azar existe y su papel en los resultados individuales suele subestimarse por quienes tienen éxito y sobreestimarse por quienes buscan una explicación externa a una dificultad propia. Ambos extremos son formas de no mirar la parte del resultado que sí depende de la conducta.",
+                    "La lotería como decisión financiera",
+                    "Comprar un billete de lotería es, en términos actuariales, aceptar una esperanza matemática negativa a cambio de la posibilidad remota de un resultado extraordinario. Dependiendo del sorteo, la probabilidad de acertar el premio mayor puede ser de una entre varios millones — un orden de magnitud comparable, o inferior, al de sufrir ciertos accidentes poco frecuentes. No es una crítica moral a quien juega ocasionalmente por entretenimiento; es una advertencia contra tratarlo como una estrategia.",
+                    "Superficie de exposición",
+                    "Un marco más útil que \"tener suerte\" es el de superficie de exposición: cuantas más oportunidades razonables se prueban —proyectos, conversaciones, formación, pequeñas apuestas de bajo riesgo y alto potencial—, mayor es la probabilidad estadística de que una de ellas resulte favorable. Quien nunca sale de casa no se moja, pero tampoco recibe la lluvia que en ocasiones riega algo útil. A esto, en el mundo de la inversión y el emprendimiento, se le llama buscar asimetría positiva —una idea popularizada por el ensayista y matemático Nassim Nicholas Taleb—: exposiciones donde la pérdida posible está acotada y la ganancia posible no lo está.",
+                    "Un matiz necesario",
+                    "Conviene ser honesto sobre el sesgo de supervivencia: las biografías de éxito que se cuentan son, casi por definición, las de quienes tuvieron éxito. Por cada historia de una apuesta arriesgada que salió bien, existen muchas más, invisibles, que no salieron bien y que no se cuentan en ningún libro. \"Aumentar la superficie de exposición\" mejora las probabilidades; no las garantiza, y no es un sustituto de la gestión de riesgo que se describe en capítulos posteriores.",
+                    "Aplicación práctica",
+                    "Tres formas de aumentar la exposición a la buena suerte sin aumentar el riesgo de ruina.",
+                    "1. Amplía tu superficie de oportunidad. Durante los próximos treinta días, no rechaces automáticamente una oportunidad profesional razonable solo porque genere incertidumbre.",
+                    "2. Redirige el gasto en juegos de azar. Si dedicas dinero regularmente a la lotería, redirígelo a formación o a una inversión indexada.",
+                    "3. Analiza tu último fracaso sin autocompasión ni autoflagelación. Separa con honestidad qué parte fue azar y qué parte fue falta de preparación."
                 ]
-            },
-            {
-                "type": "h4",
-                "text": "El Asesino Silencioso: Las Tarjetas de Crédito"
-            },
-            {
-                "type": "p",
-                "sentences": [
-                    "El negocio de los bancos es que pagues el mínimo.",
-                    "Si solo pagas el mínimo de tu tarjeta, tardarás décadas en liquidarla y pagarás el triple en intereses.",
-                    "Las tarjetas desacoplan el dolor del pago del placer del consumo.",
-                    "Gastas más, y con menos control, cuando usas plástico que cuando usas efectivo."
-                ]
-            },
-            {
-                "type": "h4",
-                "text": "El Coche: Destructor de riqueza"
-            },
-            {
-                "type": "p",
-                "sentences": [
-                    "Un coche es un activo que se deprecia.",
-                    "Si lo financias, pagas intereses sobre algo que cada día vale menos.",
-                    "Es una doble destrucción de patrimonio.",
-                    "Nunca financies un juguete.",
-                    "Un coche para ir a trabajar es una herramienta; un coche de lujo financiado es vanidad."
-                ]
-            },
-            {
-                "type": "h4",
-                "text": "Protocolo de acción del capítulo cinco"
-            },
-            {
-                "type": "p",
-                "sentences": [
-                    "Si tienes deuda de consumo, estás en emergencia."
-                ]
-            },
-            {
-                "type": "p",
-                "sentences": [
-                    "**Uno:** Cirugía Plástica.",
-                    "Corta las tarjetas.",
-                    "Elimínalas de sistema de pago de Apple y de Amazon.",
-                    "Vuelve al efectivo."
-                ]
-            },
-            {
-                "type": "p",
-                "sentences": [
-                    "**Dos:** Método Avalancha frente a Bola de Nieve.",
-                    "Elige una estrategia de pago, ya sea por el interés más alto o por el saldo más pequeño, y ataca con furia."
-                ]
-            },
-            {
-                "type": "p",
-                "sentences": [
-                    "**Tres:** Venta de Activos Estúpidos.",
-                    "¿Tienes un coche financiado que te ahoga?",
-                    "Véndelo.",
-                    "Compra uno barato en efectivo.",
-                    "La libertad vale más que el cuero de los asientos."
-                ]
-            },
-            {
-                "type": "hr"
             }
         ]
     },
     {
-        "title": "CAPÍTULO VI: El presupuesto no es una dieta",
+        "title": "Capítulo 4: La inflación de estilo de vida en detalle",
         "sections": [
             {
                 "type": "p",
                 "sentences": [
-                    "Capítulo seis.",
-                    "El presupuesto no es una dieta: Es un mapa de guerra.",
-                    "Si te pregunto cuánto gastaste en comida el mes pasado y no lo sabes, estás volando a ciegas.",
-                    "El presupuesto no es restricción, es permiso.",
-                    "Si asignas dinero a ocio, puedes gastarlo sin culpa.",
-                    "El presupuesto elimina la ansiedad porque sabes que lo importante ya está cubierto."
+                    "Capítulo IV. La inflación de estilo de vida en detalle",
+                    "Por qué ganar más, sin un sistema, acelera el gasto más que el ahorro",
+                    "El patrón es conocido: una subida de sueldo, y meses después la sensación de estar igual de apretado que antes, o peor. No es casualidad ni mala suerte: es un mecanismo psicológico bien documentado que conviene entender para poder interrumpirlo.",
+                    "El efecto Diderot",
+                    "El nombre proviene de un ensayo del filósofo Denis Diderot sobre cómo una bata nueva y elegante lo llevó, por contraste, a sentir que el resto de sus posesiones parecía anticuado, y a sustituirlas una por una hasta rehacer su estudio entero. El fenómeno moderno es el mismo: una compra nueva y superior deja en evidencia, por comparación, todo lo que la rodea, y dispara un ciclo de reemplazo que no mejora la vida tanto como encarece el mantenerla.",
+                    "El razonamiento del \"me lo merezco\"",
+                    "Usar el cansancio o una mala semana como justificación para una compra no planificada es una forma común de dejar que una emoción puntual tome una decisión financiera con consecuencias que la superan en duración. No se trata de negarse todo capricho — la privación total suele ser insostenible y contraproducente —, sino de distinguir entre el capricho planificado, que se disfruta sin culpa porque está presupuestado, y el capricho reactivo, que suele generar más malestar del que alivia.",
+                    "El coste de vivir al límite de los ingresos",
+                    "Cuando el nivel de vida se ajusta al máximo del ingreso disponible, cualquier margen de maniobra desaparece: dejar un empleo insatisfactorio, absorber un imprevisto o emprender un proyecto propio se vuelve mucho más costoso de lo necesario. La libertad financiera no se mide por la capacidad de gastar, sino por la capacidad de dejar de percibir ingresos durante un tiempo sin que la estructura de vida colapse.",
+                    "Un matiz necesario",
+                    "No todo aumento del gasto al subir de ingresos es irracional. Hay mejoras de calidad de vida —una vivienda más segura, atención médica de mejor calidad, tiempo comprado mediante ayuda doméstica— que tienen un retorno real en bienestar y en tiempo disponible, no solo en estatus. La distinción importante no es \"gastar más siempre está mal\", sino si el aumento de gasto fue una decisión deliberada o un ajuste automático e inconsciente al nuevo ingreso.",
+                    "Aplicación práctica",
+                    "Tres formas de interrumpir la inflación de estilo de vida antes de que se instale.",
+                    "1. La regla del cincuenta por ciento. De cada aumento de sueldo, destina la mitad a inversión y la otra mitad, de forma consciente, a mejorar tu vida.",
+                    "2. La prueba del extraño. Ante una posesión cara, pregúntate: si un desconocido te ofreciera ahora mismo su valor en efectivo, ¿lo aceptarías? Si la respuesta es sí, es una señal.",
+                    "3. Define tu \"suficiente\". Escribe, con cifras, qué necesitas para vivir bien. Es el nivel a partir del cual seguir subiendo el gasto deja de tener retorno en bienestar."
                 ]
-            },
-            {
-                "type": "h4",
-                "text": "El Ejercicio que Cambia Todo"
-            },
-            {
-                "type": "p",
-                "sentences": [
-                    "Antes de hablar de presupuestos complejos, hagamos una resta simple.",
-                    "Suma tus gastos fijos mensuales.",
-                    "Réstaselos a tu ingreso.",
-                    "Esa diferencia es tu dinero real disponible.",
-                    "Ejemplo Real: Ingresos mensuales: mil ochocientos.",
-                    "Gastos fijos, como alquiler, facturas y comida: menos mil cuatrocientos.",
-                    "Dinero libre real: cuatrocientos.",
-                    "Muchos viven bajo la Ilusión del Ingreso.",
-                    "Creen que tienen mil ochocientos para gastar.",
-                    "No es verdad.",
-                    "Mil cuatrocientos ya tienen dueño.",
-                    "Si gastas como si tuvieras mil ochocientos, llegarás a cero, o a deuda, antes de fin de mes.",
-                    "Todo lo que gastes por encima de esos cuatrocientos es deuda futura."
-                ]
-            },
-            {
-                "type": "h4",
-                "text": "El Patrón Invisible: Por qué tu dinero se escapa"
-            },
-            {
-                "type": "p",
-                "sentences": [
-                    "Cada mañana compras un café.",
-                    "Son solo tres euros.",
-                    "Parece poco.",
-                    "Pero multiplícalo por veinte días al mes.",
-                    "Son sesenta euros que desaparecen sin registro.",
-                    "No se trata del café.",
-                    "Se trata de no saber adónde va tu dinero.",
-                    "Gastas sin pensar porque no ves el impacto real hasta que llega fin de mes.",
-                    "Hasta que no registres ese café, no tienes derecho a ignorarlo.",
-                    "Primero contrólalo, luego decide si te lo tomas."
-                ]
-            },
-            {
-                "type": "h4",
-                "text": "Diferencia entre Querer y Necesitar"
-            },
-            {
-                "type": "p",
-                "sentences": [
-                    "Estás en el centro comercial.",
-                    "Ves una camiseta.",
-                    "Tu cerebro dice: la necesito para el sábado.",
-                    "Detente.",
-                    "Ya tienes ropa para el sábado.",
-                    "Lo que tienes es un deseo.",
-                    "Usa este filtro:"
-                ]
-            },
-            {
-                "type": "p",
-                "sentences": [
-                    "**Primero,** Necesidad Real: tu vida se complica si no lo tienes, como la comida, la vivienda o la salud."
-                ]
-            },
-            {
-                "type": "p",
-                "sentences": [
-                    "**Segundo,** Deseo Legítimo: mejora tu calidad de vida pero no es urgente."
-                ]
-            },
-            {
-                "type": "p",
-                "sentences": [
-                    "**Tercero,** Impulso Emocional: compras para sentirte mejor en ese momento.",
-                    "La Pregunta Clave es: ¿Qué pasaría si no compro esto hoy?",
-                    "Si la respuesta es \"nada grave\", no es una necesidad."
-                ]
-            },
-            {
-                "type": "h4",
-                "text": "Protocolo de acción del capítulo seis"
-            },
-            {
-                "type": "p",
-                "sentences": [
-                    "Dibuja el mapa."
-                ]
-            },
-            {
-                "type": "p",
-                "sentences": [
-                    "**Uno:** Auditoría de la Verdad.",
-                    "Descarga tus movimientos bancarios de los últimos noventa días y calcula el promedio real."
-                ]
-            },
-            {
-                "type": "p",
-                "sentences": [
-                    "**Dos:** Regla cincuenta, treinta, veinte.",
-                    "Cincuenta por ciento para Necesidades, treinta por ciento para Inversión o Deuda, y veinte por ciento para Deseos."
-                ]
-            },
-            {
-                "type": "p",
-                "sentences": [
-                    "**Tres:** Acción Hoy.",
-                    "Abre las notas de tu móvil.",
-                    "Anota cada gasto que hagas durante las próximas veinticuatro horas.",
-                    "Solo el número y el concepto.",
-                    "Rompe la ceguera."
-                ]
-            },
-            {
-                "type": "hr"
             }
         ]
     },
     {
-        "title": "CAPÍTULO VII: El fondo de emergencia",
+        "title": "Capítulo 5: Deuda de consumo frente a deuda productiva",
         "sections": [
             {
                 "type": "p",
                 "sentences": [
-                    "Capítulo siete.",
-                    "El fondo de emergencia: La barrera entre tú y la desesperación.",
-                    "Hay una ley universal más poderosa que la gravedad: la Ley de Murphy.",
-                    "Si algo puede salir mal, saldrá mal en el peor momento financiero posible.",
-                    "El coche no se rompe cuando acabas de cobrar el bonus.",
-                    "Se rompe cuando tienes que pagar el seguro y te han bajado las horas extra.",
-                    "La mayoría de la gente vive al límite.",
-                    "No tienen margen de error.",
-                    "Si ocurre un imprevisto de quinientos dólares, su vida se desmorona.",
-                    "Entran en pánico, piden dinero prestado y vuelven a caer en el pozo."
+                    "Capítulo V. Deuda de consumo frente a deuda productiva",
+                    "No toda deuda es igual, pero la de consumo es la más peligrosa",
+                    "La deuda, en sí misma, es una herramienta neutra: permite adelantar en el tiempo un gasto o una inversión. El problema no es la deuda como categoría, sino el uso que se le da. Endeudarse para financiar consumo que se deprecia —y que además se olvida en semanas— es distinto, en naturaleza y en consecuencias, de endeudarse para adquirir un activo productivo o para formarse.",
+                    "Las tarjetas de crédito y el pago mínimo",
+                    "El modelo de negocio de muchas tarjetas de crédito depende de que una parte de los usuarios pague solo el mínimo mensual. Bajo ese esquema, liquidar el saldo puede tardar años y el coste en intereses puede superar varias veces el importe original de la compra. Existe además evidencia experimental —el trabajo de Drazen Prelec y Duncan Simester, entre otros— de que pagar con tarjeta reduce la percepción del dolor de gastar, comparado con pagar en efectivo, lo que tiende a elevar el gasto total.",
+                    "El automóvil como activo depreciable",
+                    "Un vehículo pierde valor desde el momento en que sale del concesionario. Financiarlo significa pagar intereses sobre un activo que vale menos cada día que pasa: una doble erosión del patrimonio. Esto no significa que financiar un coche sea siempre un error —para muchas personas es la única forma de acceder a un medio de transporte necesario para trabajar—, pero conviene distinguir entre financiar la herramienta que se necesita y financiar la versión de lujo que no aporta una utilidad proporcional al coste adicional.",
+                    "Un matiz necesario",
+                    "No toda deuda destruye patrimonio. Una hipoteca a tipo razonable sobre una vivienda que se habría necesitado alquilar de todos modos, un préstamo para formación con retorno laboral demostrable, o el crédito usado para financiar un negocio con flujo de caja capaz de cubrir la cuota, son ejemplos de deuda que puede ser una herramienta razonable de construcción de patrimonio. El criterio útil no es \"deuda sí o no\", sino si el activo o la capacidad financiada genera, con probabilidad razonable, más valor que el coste del interés.",
+                    "Aplicación práctica",
+                    "Si tienes deuda de consumo activa, trátala como prioridad, no como un gasto fijo más.",
+                    "1. Elimina el acceso fácil. Retira las tarjetas de los sistemas de pago con un clic y de las aplicaciones de compra.",
+                    "2. Elige un método y ejecútalo. Compara el método avalancha (atacar primero el interés más alto) con el de bola de nieve (atacar primero el saldo más pequeño) y aplica el que sostengas en el tiempo.",
+                    "3. Evalúa vender el activo que te ahoga. Si un vehículo financiado compromete tu liquidez de forma seria, vender y sustituir por uno pagado al contado suele ser la opción más racional, aunque no sea la más cómoda emocionalmente."
                 ]
-            },
-            {
-                "type": "h4",
-                "text": "No es Ahorro, es un Seguro"
-            },
-            {
-                "type": "p",
-                "sentences": [
-                    "El error número uno es pensar en el Fondo de Emergencia como una \"inversión\".",
-                    "El objetivo de este fondo no es ganar dinero.",
-                    "El objetivo es que no tengas que vender tus inversiones cuando llegue la crisis.",
-                    "Es el guardaespaldas de tu riqueza.",
-                    "Si usas deuda, como una tarjeta de crédito, para pagar una emergencia, no solucionas el problema; lo agravas.",
-                    "Una emergencia es fuego; el efectivo es agua; el crédito es gasolina."
-                ]
-            },
-            {
-                "type": "h4",
-                "text": "¿Cuánto es Suficiente?"
-            },
-            {
-                "type": "p",
-                "sentences": [
-                    "Tu fondo debe cubrir de tres a seis meses de tus Gastos de Supervivencia, no tus ingresos, sino lo que necesitas para no morir de hambre ni perder tu casa."
-                ]
-            },
-            {
-                "type": "p",
-                "sentences": [
-                    "**Primero,** tres meses si eres soltero, tienes alquiler barato y empleo muy estable."
-                ]
-            },
-            {
-                "type": "p",
-                "sentences": [
-                    "**Segundo,** seis meses si tienes familia, hipoteca o personas a cargo, lo cual es lo recomendado."
-                ]
-            },
-            {
-                "type": "p",
-                "sentences": [
-                    "**Tercero,** doce meses si eres emprendedor o autónomo.",
-                    "Tener seis meses de gastos en el banco cambia tu fisiología.",
-                    "Caminas diferente.",
-                    "En una negociación salarial, no hueles a desesperación.",
-                    "Tu jefe sabe que no te puede explotar porque tienes opciones."
-                ]
-            },
-            {
-                "type": "h4",
-                "text": "¿Dónde guardarlo?"
-            },
-            {
-                "type": "p",
-                "sentences": [
-                    "Debe cumplir tres requisitos: Seguridad, Liquidez y Separación.",
-                    "Lo ideal es una Cuenta de Ahorro Remunerada en un banco diferente al de tu día a día.",
-                    "Si lo ves cada vez que entras a la aplicación para pagar el café, te lo gastarás."
-                ]
-            },
-            {
-                "type": "h4",
-                "text": "Protocolo de acción del capítulo siete"
-            },
-            {
-                "type": "p",
-                "sentences": [
-                    "Construye tu muralla."
-                ]
-            },
-            {
-                "type": "p",
-                "sentences": [
-                    "**Uno:** El Fondo \"Bebé\".",
-                    "Si tienes deudas, junta mil dólares lo más rápido posible.",
-                    "Esto cubre el noventa por ciento de los imprevistos pequeños.",
-                    "Con este escudo, ataca la deuda."
-                ]
-            },
-            {
-                "type": "p",
-                "sentences": [
-                    "**Dos:** Automatiza.",
-                    "Configura una transferencia automática el día uno de cada mes a tu cuenta de emergencia."
-                ]
-            },
-            {
-                "type": "p",
-                "sentences": [
-                    "**Tres:** Define Emergencia.",
-                    "Perder el empleo es una emergencia.",
-                    "Las rebajas del Viernes Negro no son una emergencia."
-                ]
-            },
-            {
-                "type": "hr"
             }
         ]
     },
     {
-        "title": "CAPÍTULO VIII: El interés compuesto es aburrido",
+        "title": "Capítulo 6: El presupuesto como mapa, no como dieta",
         "sections": [
             {
                 "type": "p",
                 "sentences": [
-                    "Capítulo ocho.",
-                    "El interés compuesto es aburrido y por eso te hará rico.",
-                    "El cerebro humano no entiende el crecimiento exponencial.",
-                    "Entendemos el lineal, uno, dos, tres, pero no el compuesto, dos, cuatro, ocho, dieciséis.",
-                    "Por eso subestimamos el interés compuesto y buscamos el pelotazo rápido."
+                    "Capítulo VI. El presupuesto como mapa, no como dieta",
+                    "Saber a dónde va el dinero elimina más ansiedad de la que crea",
+                    "Un presupuesto no es una lista de prohibiciones; es, sobre todo, información. Quien no sabe cuánto gastó el mes pasado en alimentación, o en suscripciones, está tomando decisiones financieras a ciegas. Presupuestar es, en ese sentido, más parecido a encender la luz que a ponerse a dieta.",
+                    "El cálculo que cambia la perspectiva",
+                    "Antes de entrar en sistemas de presupuesto complejos, conviene hacer una resta simple: ingreso mensual menos gastos fijos (vivienda, suministros, alimentación básica) es igual al dinero realmente disponible.",
+                    "Un ejemplo ilustrativo: ingreso mensual de 1.800; gastos fijos de 1.400; dinero libre real, 400. Muchas personas viven bajo lo que podríamos llamar la ilusión del ingreso bruto: creen que disponen de 1.800 para gastar, cuando en realidad 1.400 ya tienen un destino fijado de antemano. Todo lo que se gaste por encima de esos 400 es, en la práctica, deuda futura, aunque todavía no se haya materializado como tal.",
+                    "Los pequeños gastos recurrentes",
+                    "Un café diario de tres euros parece intrascendente, pero multiplicado por veinte días laborables al mes son sesenta euros que no quedan registrados en ninguna decisión consciente. El problema no es el café en sí — nadie se arruina por un café — sino la falta de visibilidad sobre a dónde va el dinero en conjunto. El primer paso no es dejar de comprarlo; es registrarlo, y decidir después, con esa información, si merece la pena.",
+                    "Necesidad, deseo e impulso",
+                    "Un filtro útil antes de una compra no esencial:",
+                    "•  Necesidad real: su ausencia complica la vida de forma objetiva (alimentación, vivienda, salud).",
+                    "•  Deseo legítimo: mejora la calidad de vida, pero no es urgente.",
+                    "•  Impulso emocional: responde a un estado de ánimo puntual, no a una necesidad ni a un deseo sostenido.",
+                    "La pregunta que distingue las tres categorías es sencilla: ¿qué pasaría si no lo compro hoy? Si la respuesta honesta es \"nada grave\", probablemente no era una necesidad.",
+                    "Un matiz necesario",
+                    "Llevar el registro de gastos al extremo también tiene un coste: para algunas personas, un control excesivamente minucioso genera ansiedad en lugar de reducirla, o se abandona precisamente por ser insostenible. El objetivo de un presupuesto es tener visibilidad suficiente para decidir bien, no alcanzar una precisión contable perfecta. Un sistema simple que se mantiene en el tiempo es más útil que uno perfecto que se abandona al segundo mes.",
+                    "Aplicación práctica",
+                    "Tres pasos para pasar de la intuición a los datos.",
+                    "1. Auditoría de los últimos noventa días. Descarga los movimientos bancarios de los últimos tres meses y calcula el gasto medio real por categoría.",
+                    "2. Regla orientativa 50/30/20. Cincuenta por ciento a necesidades, treinta por ciento a inversión o amortización de deuda, veinte por ciento a deseos — ajustable según tu situación concreta.",
+                    "3. Registro de veinticuatro horas. Anota, sin juzgar, cada gasto de las próximas veinticuatro horas: solo el importe y el concepto. Es el primer paso para dejar de gastar a ciegas."
                 ]
-            },
-            {
-                "type": "h4",
-                "text": "La Pregunta del Millón"
-            },
-            {
-                "type": "p",
-                "sentences": [
-                    "¿Qué prefieres: tres millones de dólares hoy o un céntimo que se duplica cada día durante treinta y un días?",
-                    "La mayoría elige los tres millones.",
-                    "Error.",
-                    "El céntimo mágico, en el día treinta y un, vale más de diez millones de dólares.",
-                    "Pero la magia ocurre al final.",
-                    "En el día veinte, apenas tenías cinco mil dólares.",
-                    "Parecía que la estrategia no funcionaba.",
-                    "Si no tienes paciencia para esperar al día treinta, pierdes la fortuna."
-                ]
-            },
-            {
-                "type": "h4",
-                "text": "El Palo de Hockey"
-            },
-            {
-                "type": "p",
-                "sentences": [
-                    "Al empezar a invertir, entras en el Valle de la Decepción.",
-                    "Pones dinero y apenas ves resultados.",
-                    "Aquí abandona la mayoría.",
-                    "Con todo, si aguantas, llegas al punto de inflexión.",
-                    "De repente, tu dinero genera más dinero en un año del que tú ganas trabajando.",
-                    "La curva se vuelve vertical."
-                ]
-            },
-            {
-                "type": "h4",
-                "text": "La Regla del Setenta y Dos"
-            },
-            {
-                "type": "p",
-                "sentences": [
-                    "¿Quieres saber cuánto tardarás en duplicar tu dinero?",
-                    "Divide setenta y dos entre tu tasa de interés anual."
-                ]
-            },
-            {
-                "type": "p",
-                "sentences": [
-                    "**Primero,** al uno por ciento en un banco tradicional, tardas setenta y dos años."
-                ]
-            },
-            {
-                "type": "p",
-                "sentences": [
-                    "**Segundo,** al ocho por ciento en la bolsa histórica, tardas nueve años.",
-                    "Cada nueve años, tu dinero se duplica solo."
-                ]
-            },
-            {
-                "type": "h4",
-                "text": "Protocolo de acción del capítulo ocho"
-            },
-            {
-                "type": "p",
-                "sentences": [
-                    "Planta el árbol."
-                ]
-            },
-            {
-                "type": "p",
-                "sentences": [
-                    "**Uno:** Empieza ayer.",
-                    "El tiempo es más importante que el dinero.",
-                    "Invertir cien dólares hoy vale más que invertir mil dentro de veinte años."
-                ]
-            },
-            {
-                "type": "p",
-                "sentences": [
-                    "**Dos:** Calculadora.",
-                    "Busca una calculadora de interés compuesto en Google.",
-                    "Juega con los números.",
-                    "Imprime el gráfico y pégalo en tu nevera."
-                ]
-            },
-            {
-                "type": "p",
-                "sentences": [
-                    "**Tres:** Adopta el Aburrimiento.",
-                    "Si tu inversión es divertida, es un hobby caro.",
-                    "La buena inversión es aburrida, como ver crecer el césped."
-                ]
-            },
-            {
-                "type": "hr"
             }
         ]
     },
     {
-        "title": "CAPÍTULO IX: Ahorrar es de perdedores",
+        "title": "Capítulo 7: El fondo de emergencia",
         "sections": [
             {
                 "type": "p",
                 "sentences": [
-                    "Capítulo nueve.",
-                    "Ahorrar es de perdedores: Acumular frente a Invertir.",
-                    "Tener ahorros es mejor que tener deudas.",
-                    "Pero tener solo ahorros es una estrategia garantizada para perder riqueza lentamente.",
-                    "El ahorrador opera desde el miedo y la escasez.",
-                    "El inversor opera desde la expansión y la producción."
+                    "Capítulo VII. El fondo de emergencia",
+                    "El colchón que evita que un imprevisto se convierta en una crisis",
+                    "Los imprevistos no son una posibilidad remota; son, estadísticamente, una certeza a lo largo de una vida financiera: una reparación, una pérdida de empleo, un gasto médico. Quien vive sin margen de error no está gestionando bien su riesgo; simplemente no lo ha visto materializarse todavía.",
+                    "Un fondo de emergencia no es una inversión",
+                    "El error más común es tratar el fondo de emergencia como si su objetivo fuera generar rentabilidad. No lo es: su función es evitar que, ante una crisis, haya que vender inversiones en el peor momento posible o recurrir a deuda cara para cubrir un gasto puntual. Es, en esencia, un seguro autogestionado: el coste de oportunidad de mantenerlo líquido es el precio de esa protección.",
+                    "¿Cuánto es razonable acumular?",
+                    "La cifra habitual, ampliamente citada en planificación financiera, es entre tres y seis meses de gastos esenciales de supervivencia (no de ingresos).",
+                    "•  Tres meses si la situación laboral es muy estable, sin personas a cargo y con gastos fijos bajos.",
+                    "•  Seis meses si hay hipoteca, familia o personas dependientes — la cifra más citada como estándar.",
+                    "•  Nueve a doce meses si los ingresos son variables, como en el trabajo autónomo o el emprendimiento.",
+                    "Tener ese margen no solo reduce el riesgo objetivo; también cambia la posición negociadora en decisiones laborales: quien puede permitirse decir no tiene, de hecho, más opciones.",
+                    "Dónde mantenerlo",
+                    "Debe cumplir tres condiciones: seguridad (no debe perder valor nominal), liquidez (disponible en un plazo corto) y separación (en una cuenta distinta de la del uso diario, para reducir la tentación de gastarlo).",
+                    "Un matiz necesario",
+                    "Mantener seis meses o más de gastos en un instrumento de bajo rendimiento tiene un coste de oportunidad real frente a invertirlo, especialmente en periodos de inflación elevada. Ese coste no es un error de cálculo del fondo de emergencia; es, literalmente, el precio de la prima del seguro que se está comprando. El error no es pagarlo, sino no ser consciente de que se está pagando, o sobredimensionar el fondo mucho más allá de lo que la situación personal justifica.",
+                    "Aplicación práctica",
+                    "Tres pasos para construir el colchón sin sobredimensionarlo.",
+                    "1. Fondo inicial de contingencia. Si tienes deuda de consumo activa, junta primero una cifra pequeña —del orden de mil dólares o su equivalente— que cubra la mayoría de imprevistos menores, y después vuelca el esfuerzo en la deuda.",
+                    "2. Automatiza la aportación. Programa una transferencia mensual fija a la cuenta de emergencia hasta alcanzar el objetivo.",
+                    "3. Define con antelación qué cuenta como emergencia. Perder el empleo lo es; una oferta de rebajas no lo es. Tenerlo escrito evita justificar gastos no esenciales bajo presión emocional."
                 ]
-            },
-            {
-                "type": "h4",
-                "text": "El Ladrón Silencioso: La Inflación"
-            },
-            {
-                "type": "p",
-                "sentences": [
-                    "Si guardas diez mil dólares bajo el colchón, en diez años seguirás teniendo los mismos billetes, pero comprarán la mitad de cosas.",
-                    "La inflación es el impuesto a la ignorancia.",
-                    "Quedarse en efectivo es perder poder adquisitivo cada año frente a la inflación.",
-                    "Para mantener tu poder adquisitivo, estás obligado a invertir."
-                ]
-            },
-            {
-                "type": "h4",
-                "text": "El Coste de Oportunidad"
-            },
-            {
-                "type": "p",
-                "sentences": [
-                    "Tener cincuenta mil dólares parados en el banco por si acaso, más allá de tu fondo de emergencia, es una negligencia financiera.",
-                    "Si hubieras invertido esos cincuenta mil al siete por ciento durante diez años, tendrías casi cien mil.",
-                    "El miedo te ha costado cincuenta mil dólares."
-                ]
-            },
-            {
-                "type": "h4",
-                "text": "Riesgo Real"
-            },
-            {
-                "type": "p",
-                "sentences": [
-                    "**Primero,** el Riesgo de Invertir es la volatilidad a corto plazo."
-                ]
-            },
-            {
-                "type": "p",
-                "sentences": [
-                    "**Segundo,** el Riesgo de Ahorrar es la pérdida garantizada de valor a largo plazo.",
-                    "No invertir es arriesgado.",
-                    "Dejar tu futuro en manos de una moneda que se devalúa es una apuesta segura: seguro que pierdes."
-                ]
-            },
-            {
-                "type": "h4",
-                "text": "Protocolo de acción del capítulo nueve"
-            },
-            {
-                "type": "p",
-                "sentences": [
-                    "Deja de ser una ardilla asustada."
-                ]
-            },
-            {
-                "type": "p",
-                "sentences": [
-                    "**Uno:** Define tu Techo de Ahorro.",
-                    "Suma tu Fondo de Emergencia más los gastos grandes previstos a dos años, como una boda o un coche.",
-                    "Ese es tu límite de efectivo."
-                ]
-            },
-            {
-                "type": "p",
-                "sentences": [
-                    "**Dos:** El Barrido Automático.",
-                    "Cualquier euro que supere ese techo a fin de mes debe ser expulsado de tu cuenta e invertido."
-                ]
-            },
-            {
-                "type": "p",
-                "sentences": [
-                    "**Tres:** Cambia el Chip.",
-                    "El ahorro tiene un límite, que es el cero.",
-                    "Los ingresos no tienen techo.",
-                    "Enfócate en ganar más, no solo en gastar menos."
-                ]
-            },
-            {
-                "type": "hr"
             }
         ]
     },
     {
-        "title": "CAPÍTULO X: El precio del tiempo",
+        "title": "Capítulo 8: El interés compuesto",
         "sections": [
             {
                 "type": "p",
                 "sentences": [
-                    "Capítulo diez.",
-                    "El precio del tiempo: Calcula cuánto vale tu hora.",
-                    "Cuando compras un teléfono de mil doscientos dólares, no pagas con dinero.",
-                    "Pagas con las sesenta u ochenta horas de vida que tuviste que trabajar para ganarlo.",
-                    "¿Vale ese teléfono dos semanas de tu libertad lejos de tu familia?"
+                    "Capítulo VIII. El interés compuesto",
+                    "Por qué el crecimiento exponencial es difícil de intuir y fácil de subestimar",
+                    "El cerebro humano procesa con naturalidad el crecimiento lineal —uno, dos, tres— pero le cuesta intuir el crecimiento exponencial —dos, cuatro, ocho, dieciséis—. Esa limitación cognitiva, bien documentada en estudios de innumeracia, explica en parte por qué se subestima el efecto del interés compuesto y se sobrevalora la búsqueda de una ganancia rápida y puntual.",
+                    "El experimento mental del céntimo",
+                    "Un ejercicio clásico para ilustrar el punto: ¿qué preferirías, tres millones de dólares hoy, o un céntimo que se duplica cada día durante treinta y un días? La mayoría elige la suma inmediata. Sin embargo, el céntimo que se duplica alcanza, en el día treinta y uno, algo más de diez millones de dólares. La trampa intuitiva está en que, hacia el día veinte, el total apenas ronda los cinco mil dólares: durante la mayor parte del proceso, el crecimiento exponencial parece casi plano, y solo se vuelve dramático al final. Quien abandona antes de ese punto pierde la parte más valiosa del efecto.",
+                    "La fase de rendimiento aparente bajo",
+                    "Al empezar a invertir de forma sistemática, es habitual atravesar un periodo largo en el que los resultados parecen desproporcionadamente pequeños frente al esfuerzo de ahorro. Es en esa fase donde más personas abandonan la estrategia. Quien sostiene el proceso llega, con el tiempo, a un punto en el que la rentabilidad generada por el propio capital supera, en un año, a la aportación proveniente del trabajo — el momento en que la curva deja de parecer plana.",
+                    "La regla del setenta y dos",
+                    "Una forma rápida de estimar cuánto tarda un capital en duplicarse: dividir 72 entre la tasa de interés anual.",
+                    "•  Al 1 % anual (aproximadamente lo que ofrece una cuenta de ahorro tradicional), la duplicación tarda unos 72 años.",
+                    "•  Al 7-8 % anual (un rango habitual como referencia histórica de largo plazo para una cartera diversificada de renta variable, antes de inflación), la duplicación tarda entre 9 y 10 años.",
+                    "Un matiz necesario",
+                    "La rentabilidad histórica de la bolsa no es una garantía contractual del futuro, y las cifras que se citan habitualmente suelen ser nominales, no ajustadas por inflación ni por comisiones — dos factores que reducen sensiblemente el resultado neto real. Además, el 7-8 % anual es un promedio de largo plazo con una dispersión considerable año a año: exige mantener el capital invertido durante periodos largos, incluyendo caídas severas, para acercarse a esa media. El interés compuesto es real, pero no es magia ni está garantizado en cualquier ventana de tiempo corta.",
+                    "Aplicación práctica",
+                    "Tres formas de dejar que el tiempo haga la mayor parte del trabajo.",
+                    "1. Empieza cuanto antes. El tiempo invertido pesa más que el importe: aportar una cantidad modesta hoy suele superar, a igualdad de rentabilidad, a una aportación mayor hecha veinte años después.",
+                    "2. Usa una calculadora de interés compuesto. Simula distintos escenarios de aportación y plazo para ver el efecto de forma concreta, no abstracta.",
+                    "3. Acepta que la buena inversión suele ser poco interesante de observar. Si una inversión resulta emocionante día a día, conviene revisar si en realidad es especulación disfrazada de inversión."
                 ]
-            },
-            {
-                "type": "h4",
-                "text": "Tu Salario Real es una Mentira"
-            },
-            {
-                "type": "p",
-                "sentences": [
-                    "No ganas lo que dice tu nómina.",
-                    "Resta los gastos de ir a trabajar, como la gasolina, la ropa y comer fuera, y suma las horas de transporte y estrés.",
-                    "Descubrirás que tu hora real vale mucho menos de lo que crees.",
-                    "Y eso hace que cada gasto sea más doloroso.",
-                    "Subcontratación de servicios: Comprar Vida.",
-                    "Quien tiene dificultades económicas suele valorar el dinero por encima del tiempo;",
-                    "quien ya tiene patrimonio suele valorar el tiempo por encima del dinero.",
-                    "Si tu hora vale treinta dólares, no hagas tareas que puedes delegar por quince.",
-                    "Paga a alguien para que limpie tu casa.",
-                    "Estás comprando tiempo de vida a mitad de precio.",
-                    "Eso es ser rico."
-                ]
-            },
-            {
-                "type": "h4",
-                "text": "Protocolo de acción del capítulo diez"
-            },
-            {
-                "type": "p",
-                "sentences": [
-                    "Protege tu activo más valioso."
-                ]
-            },
-            {
-                "type": "p",
-                "sentences": [
-                    "**Uno:** Calcula tu Tarifa Real de Vida.",
-                    "Ingreso Neto dividido entre Horas Reales de trabajo más transporte.",
-                    "Escribe esa cifra en tu tarjeta de crédito."
-                ]
-            },
-            {
-                "type": "p",
-                "sentences": [
-                    "**Dos:** El Filtro de Compra.",
-                    "Antes de comprar algo, divide el precio entre tu tarifa.",
-                    "Pregúntate: ¿vale esto equis horas de mi vida?"
-                ]
-            },
-            {
-                "type": "p",
-                "sentences": [
-                    "**Tres:** Delega.",
-                    "Identifica una tarea que odies y paga para que la hagan si el coste es menor que tu tarifa.",
-                    "Compra tu primera hora de libertad."
-                ]
-            },
-            {
-                "type": "hr"
             }
         ]
     },
     {
-        "title": "CAPÍTULO XI: El casino de la bolsa",
+        "title": "Capítulo 9: Los límites de ahorrar sin invertir",
         "sections": [
             {
                 "type": "p",
                 "sentences": [
-                    "Capítulo once.",
-                    "El casino de la bolsa: Dejar de apostar y empezar a ser dueño.",
-                    "Hay dos formas de estar en bolsa.",
-                    "Primero, Especular, que es el Casino: intentar adivinar si el precio subirá mañana.",
-                    "Es un juego de suma cero.",
-                    "Segundo, Invertir, que es Ser Dueño: comprar una parte de un negocio real porque crees que ganará dinero en diez años.",
-                    "Es un juego de suma positiva."
+                    "Capítulo IX. Los límites de ahorrar sin invertir",
+                    "Acumular liquidez protege del corto plazo, pero no del largo",
+                    "Tener ahorros es preferible, sin discusión, a tener solo deudas. Pero mantener el patrimonio exclusivamente en efectivo o en instrumentos de muy bajo rendimiento, más allá del fondo de emergencia, es una estrategia que garantiza una pérdida lenta de poder adquisitivo.",
+                    "La inflación como coste silencioso",
+                    "Diez mil dólares guardados durante diez años sin generar rentabilidad seguirán siendo, nominalmente, diez mil dólares, pero comprarán bastante menos que hoy. La inflación funciona como un impuesto que no requiere ninguna ley para cobrarse: erosiona el valor real de cualquier saldo que no crezca al menos a su mismo ritmo.",
+                    "El coste de oportunidad de la liquidez excesiva",
+                    "Mantener una suma considerable —por ejemplo, cincuenta mil dólares— inmóvil en una cuenta corriente, por encima de lo que exige el fondo de emergencia, tiene un coste de oportunidad real y calculable: invertida a un 7 % anual durante diez años, esa misma suma se acercaría a los cien mil. La prudencia excesiva, llevada más allá de lo razonable, también tiene un precio.",
+                    "Dos tipos de riesgo",
+                    "•  El riesgo de invertir es, principalmente, la volatilidad a corto plazo: el valor puede bajar antes de subir.",
+                    "•  El riesgo de no invertir es la pérdida garantizada de poder adquisitivo a largo plazo por la vía de la inflación.",
+                    "Ninguna de las dos opciones está libre de riesgo; la pregunta relevante es qué tipo de riesgo se está dispuesto a asumir, y durante cuánto tiempo.",
+                    "Un matiz necesario",
+                    "\"Invertir en vez de ahorrar\" no es válido para todo el patrimonio ni para todos los plazos. El dinero que se necesitará en menos de tres a cinco años —la entrada de una vivienda, una boda planeada, un colchón adicional para un negocio— está mejor protegido en instrumentos líquidos y estables, aunque su rentabilidad sea baja, precisamente porque no puede permitirse una caída justo antes de necesitarlo. El criterio no es \"invertir siempre es mejor\", sino hacer coincidir el horizonte temporal del dinero con el nivel de riesgo del instrumento donde se guarda.",
+                    "Aplicación práctica",
+                    "Tres pasos para poner límite a la liquidez ociosa sin dejar de tener margen de seguridad.",
+                    "1. Define tu techo de efectivo. Súmale a tu fondo de emergencia los gastos grandes previstos a dos años vista. Esa cifra es tu límite razonable de liquidez.",
+                    "2. Automatiza el excedente. Cualquier cantidad que supere ese techo a fin de mes, destínala a inversión de forma sistemática.",
+                    "3. Enfócate también en el lado de los ingresos. El ahorro tiene un límite natural, que es el cero; el ingreso no tiene techo. Ambas palancas importan, no solo la del gasto."
                 ]
-            },
-            {
-                "type": "h4",
-                "text": "No compras un Ticker, compras un Negocio"
-            },
-            {
-                "type": "p",
-                "sentences": [
-                    "Cuando compras una acción de una gran empresa cotizada, eres dueño legal de una fracción de ese negocio.",
-                    "Su consejero delegado trabaja, en la práctica, para ti.",
-                    "Tú pones el capital, te sientas y esperas.",
-                    "Es la forma más pura de capitalismo."
-                ]
-            },
-            {
-                "type": "h4",
-                "text": "Míster Market, el Socio Bipolar"
-            },
-            {
-                "type": "p",
-                "sentences": [
-                    "Imagina que tienes un socio maníaco depresivo llamado Míster Market.",
-                    "Un día está eufórico y te quiere comprar tu parte carísima.",
-                    "Otro día está deprimido y te la vende regalada.",
-                    "El inversor inteligente ignora los gritos de Míster Market.",
-                    "Compra cuando está deprimido, en rebajas, y mantiene cuando está eufórico."
-                ]
-            },
-            {
-                "type": "h4",
-                "text": "Trading frente a Investing"
-            },
-            {
-                "type": "p",
-                "sentences": [
-                    "El Trading genera adrenalina y pierde dinero.",
-                    "La Inversión es aburrida y genera riqueza.",
-                    "Si quieres diversión, ve al casino.",
-                    "Si quieres libertad, compra el mundo entero y échate a dormir."
-                ]
-            },
-            {
-                "type": "h4",
-                "text": "Protocolo de acción del capítulo once"
-            },
-            {
-                "type": "p",
-                "sentences": [
-                    "Cambia tu identidad de jugador a propietario."
-                ]
-            },
-            {
-                "type": "p",
-                "sentences": [
-                    "**Uno:** La Prueba del Cierre.",
-                    "Si cerraran la bolsa durante cinco años, ¿estarías tranquilo con tus inversiones?",
-                    "Si la respuesta es no, estás especulando."
-                ]
-            },
-            {
-                "type": "p",
-                "sentences": [
-                    "**Dos:** Elimina el Ruido.",
-                    "Deja de ver noticias financieras diarias.",
-                    "Están diseñadas para generarte ansiedad."
-                ]
-            },
-            {
-                "type": "p",
-                "sentences": [
-                    "**Tres:** Define tu Horizonte.",
-                    "Dinero que necesitas en menos de cinco años no toca la bolsa."
-                ]
-            },
-            {
-                "type": "hr"
             }
         ]
     },
     {
-        "title": "CAPÍTULO XII: Riesgo frente a Volatilidad",
+        "title": "Capítulo 10: El precio real del tiempo",
         "sections": [
             {
                 "type": "p",
                 "sentences": [
-                    "Capítulo doce.",
-                    "Riesgo frente a Volatilidad: El miedo cuesta dinero.",
-                    "Confundes Riesgo con Volatilidad.",
-                    "Primero, la Volatilidad es que el precio sube y baja a corto plazo.",
-                    "Es ruido.",
-                    "Segundo, el Riesgo es perder tu dinero para siempre.",
-                    "Si Amazon baja un veinte por ciento hoy, es volatilidad.",
-                    "Sigues teniendo las acciones.",
-                    "Si vendes por pánico, conviertes la volatilidad en pérdida, es decir, en Riesgo."
+                    "Capítulo X. El precio real del tiempo",
+                    "Cómo calcular cuánto vale, en la práctica, una hora de tu vida",
+                    "Un teléfono de 1.200 dólares no se paga solo con dinero: se paga con las horas de trabajo necesarias para ganarlo. Poner ese precio en horas, en lugar de en cifra monetaria, cambia con frecuencia la percepción de si una compra merece la pena.",
+                    "El salario nominal frente al salario real",
+                    "El salario que figura en la nómina no es el salario efectivo. Descontando los gastos asociados a trabajar —transporte, ropa, comidas fuera de casa— y añadiendo el tiempo invertido en desplazamiento y en gestionar el estrés laboral, la tarifa real por hora suele ser considerablemente menor de lo que sugiere la cifra bruta. Ese ajuste hace que muchos gastos duelan más, en términos reales, de lo que parecen a primera vista.",
+                    "Delegar como forma de comprar tiempo",
+                    "Una heurística útil —popularizada por el escritor Tim Ferriss en el contexto de la productividad personal—: si tu tarifa por hora es de treinta dólares, no dediques tiempo a tareas que podrías delegar por quince, siempre que el resultado sea razonablemente equivalente. Pagar por servicios como la limpieza del hogar no es un lujo en sí mismo; es, en términos estrictos, comprar tiempo de vida a un precio inferior al que ese tiempo vale para ti.",
+                    "Un matiz necesario",
+                    "Este cálculo tiene límites que conviene no ignorar. Hay tareas que, aunque económicamente ineficientes, generan valor que no está en la ecuación: cocinar para la familia, mantener una habilidad, o simplemente descansar la mente con una actividad manual. Reducir cada minuto a su valor de mercado puede convertirse en una forma distinta de ansiedad. El objetivo del ejercicio es tomar decisiones más informadas, no monetizar cada instante de la vida.",
+                    "Aplicación práctica",
+                    "Tres pasos para proteger el activo que no se puede recuperar: el tiempo.",
+                    "1. Calcula tu tarifa real. Divide tu ingreso neto entre tus horas reales dedicadas al trabajo, incluyendo desplazamiento.",
+                    "2. Aplica el filtro antes de comprar. Divide el precio de una compra relevante entre tu tarifa y pregúntate si merece esa cantidad de horas de tu vida.",
+                    "3. Delega una tarea concreta. Identifica una tarea que te desagrade y cuyo coste de delegación sea inferior a tu tarifa, y empieza por ahí."
                 ]
-            },
-            {
-                "type": "h4",
-                "text": "La Paradoja del Riesgo"
-            },
-            {
-                "type": "p",
-                "sentences": [
-                    "A corto plazo, la bolsa es peligrosa porque puede caer.",
-                    "A largo plazo, el efectivo es peligroso porque garantiza pobreza por inflación, y la bolsa es segura porque siempre ha subido en periodos de veinte años.",
-                    "Lo que llamas \"seguridad\" es en realidad una garantía de fracaso lento."
-                ]
-            },
-            {
-                "type": "h4",
-                "text": "Rojo significa Oferta"
-            },
-            {
-                "type": "p",
-                "sentences": [
-                    "Cuando vas al supermercado y ves tu comida favorita con un treinta por ciento de descuento, compras el doble.",
-                    "Cuando la bolsa cae un treinta por ciento, la gente huye.",
-                    "Es absurdo.",
-                    "Las crisis son el momento donde se hacen las fortunas.",
-                    "Debes entrenar tu cerebro para ver las caídas como oportunidades de compra."
-                ]
-            },
-            {
-                "type": "h4",
-                "text": "Protocolo de acción del capítulo doce"
-            },
-            {
-                "type": "p",
-                "sentences": [
-                    "Blindaje mental."
-                ]
-            },
-            {
-                "type": "p",
-                "sentences": [
-                    "**Uno:** El Test del Zoom Out.",
-                    "Cuando las noticias digan que la bolsa se hunde, mira el gráfico de los últimos cincuenta años.",
-                    "La caída actual será una muesca invisible en una línea que siempre sube."
-                ]
-            },
-            {
-                "type": "p",
-                "sentences": [
-                    "**Dos:** No Mires la Cartera.",
-                    "Cuanto más miras, más sufres y más errores cometes.",
-                    "Mírala una vez al mes."
-                ]
-            },
-            {
-                "type": "p",
-                "sentences": [
-                    "**Tres:** Estrategia de Promediado de Coste en Dólares, o De Ce A.",
-                    "Compra automáticamente la misma cantidad cada mes.",
-                    "Comprarás barato en las crisis y caro en las subidas, promediando un buen precio sin estrés."
-                ]
-            },
-            {
-                "type": "hr"
             }
         ]
     },
     {
-        "title": "CAPÍTULO XIII: La falacia del ladrillo",
+        "title": "Capítulo 11: Especular frente a invertir",
         "sections": [
             {
                 "type": "p",
                 "sentences": [
-                    "Capítulo trece.",
-                    "La falacia del ladrillo: Tu casa no es un activo.",
-                    "Tu casa saca dinero de tu bolsillo: hipoteca, impuestos, reparaciones, comunidad.",
-                    "Por definición financiera, es un Pasivo.",
-                    "No te mientas diciendo que es la mejor inversión de tu vida."
+                    "Capítulo XI. Especular frente a invertir",
+                    "La diferencia entre adivinar precios y ser propietario de negocios",
+                    "Existen dos formas muy distintas de participar en los mercados financieros. Especular es intentar anticipar el movimiento de precio a corto plazo: en conjunto, es un juego de suma aproximadamente cero entre los participantes, una vez descontados los costes de transacción. Invertir es adquirir una participación en un negocio real con la expectativa razonada de que generará valor a lo largo de varios años: en conjunto, es un juego de suma positiva, porque acompaña el crecimiento real de la economía.",
+                    "Ser propietario, no solo tener un ticker",
+                    "Comprar una acción de una empresa cotizada significa, legalmente, poseer una fracción proporcional de ese negocio: de sus beneficios, de sus activos, de su futuro. Es una forma de participar en la actividad productiva sin gestionarla directamente.",
+                    "La metáfora de \"Mr. Market\"",
+                    "Benjamin Graham, mentor de Warren Buffett, popularizó la imagen de un socio hipotético llamado Mr. Market, que cada día ofrece comprar o vender su participación a un precio distinto, según su estado de ánimo: eufórico algunos días, pesimista otros. La recomendación de Graham era tratarlo como lo que es —una fuente de precios, no de información sobre el valor real del negocio— y aprovechar sus ofertas cuando convienen, sin dejarse arrastrar por su estado de ánimo.",
+                    "Un matiz necesario",
+                    "No toda actividad de trading de corto plazo es irracional para todo el mundo: existen operadores profesionales que gestionan el riesgo con disciplina y para quienes es una actividad laboral legítima. Lo que la evidencia sí muestra de forma consistente —entre otros, en el trabajo de los economistas Brad Barber y Terrance Odean sobre inversores particulares— es que, para la inmensa mayoría de los inversores no profesionales, la rotación frecuente de la cartera reduce la rentabilidad neta frente a una estrategia de comprar y mantener. La distinción importante no es \"el trading es malo\"; es que la mayoría de quienes lo practican sin la preparación adecuada obtienen peores resultados que si no hubieran operado en absoluto.",
+                    "Aplicación práctica",
+                    "Tres formas de comprobar si tu comportamiento se corresponde con el de un inversor o con el de un especulador.",
+                    "1. La prueba del cierre prolongado. Si la bolsa cerrara durante cinco años, ¿mantendrías la tranquilidad con tu cartera actual? Si la respuesta es no, es una señal de que estás especulando, no invirtiendo.",
+                    "2. Reduce el consumo de noticias financieras diarias. Están diseñadas, en buena medida, para generar reacción y atención, no para mejorar tus decisiones de largo plazo.",
+                    "3. Define tu horizonte temporal por partida de dinero. El dinero que necesitarás en menos de cinco años no debería estar en renta variable."
                 ]
-            },
-            {
-                "type": "h4",
-                "text": "El Coste de Oportunidad"
-            },
-            {
-                "type": "p",
-                "sentences": [
-                    "El dinero que entierras en la entrada de una casa queda bloqueado.",
-                    "Si hubieras invertido esos sesenta mil dólares en un fondo indexado durante treinta años, probablemente tendrías el triple de lo que se revalorizará la casa.",
-                    "Además, comprar casa te ata a un lugar, pierdes movilidad laboral, y concentra todo tu riesgo en un solo barrio."
-                ]
-            },
-            {
-                "type": "h4",
-                "text": "Cuándo Sí Comprar"
-            },
-            {
-                "type": "p",
-                "sentences": [
-                    "Compra casa si quieres estabilidad emocional, pintar las paredes de rosa y echar raíces.",
-                    "Pero asúmelo como un Gasto de Consumo, un lujo que te das, no el pilar de tu riqueza."
-                ]
-            },
-            {
-                "type": "h4",
-                "text": "Protocolo de acción del capítulo trece"
-            },
-            {
-                "type": "p",
-                "sentences": [
-                    "Rompe el dogma inmobiliario."
-                ]
-            },
-            {
-                "type": "p",
-                "sentences": [
-                    "**Uno:** La Regla del cinco por ciento.",
-                    "Multiplica el valor de la casa por el cinco por ciento y divídelo entre doce.",
-                    "Si puedes alquilar algo similar por menos de esa cifra, financieramente es mejor alquilar."
-                ]
-            },
-            {
-                "type": "p",
-                "sentences": [
-                    "**Dos:** No Compres con Urgencia.",
-                    "Una casa es una compra ilíquida y cara.",
-                    "Equivocarse te cuesta diez años de vida.",
-                    "Alquilar te da flexibilidad."
-                ]
-            },
-            {
-                "type": "hr"
             }
         ]
     },
     {
-        "title": "CAPÍTULO XIV: Diversificar no es cobardía",
+        "title": "Capítulo 12: Riesgo frente a volatilidad",
         "sections": [
             {
                 "type": "p",
                 "sentences": [
-                    "Capítulo catorce.",
-                    "Diversificar no es cobardía.",
-                    "El ego es el enemigo de tu cartera.",
-                    "El ego te dice: \"Yo sé qué empresa va a triunfar\".",
-                    "La estadística dice: \"No tienes ni idea\".",
-                    "Empresas gigantes como Kodak o Nokia quebraron.",
-                    "Si pones todos tus huevos en una cesta, tienes que vigilarla las veinticuatro horas."
+                    "Capítulo XII. Riesgo frente a volatilidad",
+                    "Distinguir el ruido de corto plazo de la pérdida permanente",
+                    "Es habitual confundir dos conceptos que conviene separar con precisión. La volatilidad es la fluctuación del precio en el corto plazo; en sí misma, no implica una pérdida real mientras no se materialice mediante una venta. El riesgo, en el sentido más relevante para un inversor de largo plazo, es la posibilidad de una pérdida permanente de capital.",
+                    "Cuándo la volatilidad se convierte en riesgo",
+                    "Si una acción baja un 20 % en una sesión, eso es volatilidad: el inversor sigue siendo propietario de la misma participación en el mismo negocio. Si, movido por el pánico, decide vender en ese momento, convierte una fluctuación temporal en una pérdida definitiva. La volatilidad se transforma en riesgo real precisamente en el momento de la venta forzada por miedo.",
+                    "Por qué el efectivo también tiene riesgo",
+                    "A corto plazo, la renta variable puede caer con fuerza y eso genera una sensación de peligro inmediato. A largo plazo, sin embargo, el efectivo conlleva un riesgo distinto pero igualmente real: pierde poder adquisitivo de forma sistemática frente a la inflación. Los índices bursátiles amplios, en cambio, han mostrado rentabilidades positivas en la gran mayoría de los periodos históricos de veinte años o más, aunque eso no sea una garantía matemática para el futuro.",
+                    "Las caídas como oportunidad, con matices",
+                    "Cuando un producto de consumo habitual tiene un descuento notable, la reacción típica es comprar más. Cuando el mercado bursátil cae un porcentaje similar, la reacción típica es huir. Entrenar la reacción contraria a la caída de precios de activos de calidad es uno de los ejercicios psicológicos más rentables, y también uno de los más difíciles de sostener en el momento real.",
+                    "Un matiz necesario",
+                    "Esta lógica aplica con fuerza a carteras diversificadas —índices amplios—, no automáticamente a cualquier activo individual. Una acción concreta puede caer un 90 % y no recuperarse jamás si el negocio subyacente se deteriora de forma permanente; ahí la caída sí es una pérdida real, no solo volatilidad. La distinción entre volatilidad y riesgo depende, en buena medida, de si el activo en cuestión conserva su valor fundamental a largo plazo — razón adicional para preferir la diversificación amplia frente a la concentración en pocos nombres.",
+                    "Aplicación práctica",
+                    "Tres formas de blindarse frente a las decisiones impulsadas por el miedo.",
+                    "1. Contextualiza cada caída con una perspectiva larga. Compara la caída actual con un gráfico de cincuenta años: la mayoría de las correcciones se ven, en retrospectiva, como fluctuaciones menores.",
+                    "2. Reduce la frecuencia con la que revisas la cartera. Mirarla con demasiada frecuencia aumenta la probabilidad de tomar decisiones reactivas.",
+                    "3. Considera una estrategia de aportación periódica (dollar-cost averaging). Invertir la misma cantidad cada mes, con independencia del precio, promedia el coste de entrada y reduce la carga emocional de \"acertar el momento\"."
                 ]
-            },
-            {
-                "type": "h4",
-                "text": "La Aguja y el Pajar"
-            },
-            {
-                "type": "p",
-                "sentences": [
-                    "John Bogle lo resumió mejor: \"No busques la aguja en el pajar.",
-                    "Compra el pajar entero\".",
-                    "La mayoría de las acciones son mediocres.",
-                    "Solo un puñado de superestrellas tiran del mercado.",
-                    "Si compras un Fondo Indexado Global, te garantizas tener a las ganadoras en tu equipo.",
-                    "El Sesgo Local .",
-                    "Si inviertes solo en tu país, estás atando tu futuro a una sola economía.",
-                    "España o México son menos del dos por ciento de la economía mundial.",
-                    "Si tu país entra en crisis, pierdes tu trabajo y tus ahorros.",
-                    "El dinero no tiene bandera.",
-                    "El inversor inteligente es un ciudadano del mundo."
-                ]
-            },
-            {
-                "type": "h4",
-                "text": "Protocolo de acción del capítulo catorce"
-            },
-            {
-                "type": "p",
-                "sentences": [
-                    "Simplifica y blinda."
-                ]
-            },
-            {
-                "type": "p",
-                "sentences": [
-                    "**Uno:** La Regla de uno frente a mil.",
-                    "Por cada acción individual que tengas, pregúntate: \"¿Sé más que los analistas de Wall Street?",
-                    "\".",
-                    "Vende tus experimentos y mueve el dinero al Pajar, es decir, a los Fondos Indexados."
-                ]
-            },
-            {
-                "type": "p",
-                "sentences": [
-                    "**Dos:** fondo cotizado Global.",
-                    "Busca un fondo que siga al índice mundial M S C I.",
-                    "Con un solo clic, eres dueño de las tres mil mejores empresas del planeta."
-                ]
-            },
-            {
-                "type": "hr"
             }
         ]
     },
     {
-        "title": "CAPÍTULO XV: Automatización radical",
+        "title": "Capítulo 13: La vivienda, entre el activo y el pasivo",
         "sections": [
             {
                 "type": "p",
                 "sentences": [
-                    "Capítulo quince.",
-                    "Automatización radical: Elimina tu fuerza de voluntad de la ecuación.",
-                    "La fuerza de voluntad es una batería que se agota a lo largo del día.",
-                    "Por la noche, en Modo Ahorro de Energía, no tomarás buenas decisiones financieras.",
-                    "Los ricos no tienen más fuerza de voluntad que tú; tienen Sistemas."
+                    "Capítulo XIII. La vivienda: entre el activo y el pasivo",
+                    "Por qué conviene separar la decisión financiera de la decisión emocional",
+                    "En sentido contable estricto, la vivienda habitual no genera ingresos; al contrario, genera salidas de caja constantes: hipoteca, impuestos, mantenimiento, comunidad. Por esa definición, se comporta más como un pasivo que como un activo generador de renta, y conviene evaluarla con esa honestidad antes de presentarla, sin matices, como \"la mejor inversión de la vida\".",
+                    "El coste de oportunidad de la entrada",
+                    "El capital destinado a la entrada de una vivienda deja de estar disponible para otras inversiones durante años o décadas. Comprar también reduce la movilidad laboral y concentra una parte importante del patrimonio en un único activo, en una única zona geográfica — lo contrario de lo que recomienda cualquier principio de diversificación.",
+                    "Cuándo comprar tiene sentido más allá de lo financiero",
+                    "Comprar vivienda puede ser una decisión razonable cuando se valora la estabilidad, el arraigo o la posibilidad de personalizar el espacio de vida, siempre que se entienda como un gasto de consumo elevado — un lujo elegido conscientemente — y no como el pilar central de una estrategia de acumulación de patrimonio.",
+                    "Un matiz necesario, y quizás el más importante de este capítulo",
+                    "El argumento de \"la vivienda no es un activo\" simplifica en exceso si se aplica sin matices. La hipoteca actúa, para la mayoría de los hogares, como un mecanismo de ahorro forzoso: cada cuota reduce deuda y construye patrimonio, algo que muy pocas personas replican con la misma disciplina invirtiendo por su cuenta el dinero que ahorrarían al alquilar. La vivienda también ofrece una cobertura parcial frente a la subida de los alquileres, ciertas ventajas fiscales según el país, y un componente de estabilidad emocional que tiene valor real, aunque no aparezca en ninguna hoja de cálculo. La pregunta correcta no es \"comprar o alquilar\" en abstracto, sino comparar, con números concretos del mercado local, el coste total de comprar frente al de alquilar e invertir la diferencia — y aceptar que, en muchos mercados y momentos, la respuesta no es unívoca.",
+                    "Aplicación práctica",
+                    "Dos ejercicios para tomar la decisión con datos, no solo con costumbre.",
+                    "1. Aplica la regla orientativa del cinco por ciento. Multiplica el valor de una vivienda por el cinco por ciento anual y divide entre doce. Si el alquiler de un inmueble equivalente es claramente inferior a esa cifra, alquilar sale, en términos puramente financieros, más a cuenta en ese mercado.",
+                    "2. No decidas bajo presión de urgencia. Comprar vivienda es una decisión cara y poco líquida: un error se paga, en tiempo y en dinero, durante años. Tómate el tiempo de comparar antes de firmar."
                 ]
-            },
-            {
-                "type": "h4",
-                "text": "Págate a Ti Primero"
-            },
-            {
-                "type": "p",
-                "sentences": [
-                    "El Gobierno no confía en tu bondad para pagar impuestos; te los quita de la nómina antes de que los veas.",
-                    "Haz tú lo mismo con tu inversión.",
-                    "La fórmula habitual es: Ingresos menos Gastos es igual a Ahorro, donde nunca sobra nada.",
-                    "La fórmula que funciona es: Ingresos menos Inversión es igual a Gastos, donde lo que queda es lo que se usa para vivir.",
-                    "La inversión es una factura más, la factura de tu libertad, y se paga la primera."
-                ]
-            },
-            {
-                "type": "h4",
-                "text": "Fatiga de Decisión"
-            },
-            {
-                "type": "p",
-                "sentences": [
-                    "Steve Jobs vestía siempre igual para no gastar energía decidiendo qué ponerse.",
-                    "Automatizar tus finanzas elimina cientos de microdecisiones al año.",
-                    "Tu dinero se invierte solo el día uno de cada mes.",
-                    "No dudas.",
-                    "No sientes miedo.",
-                    "No intentas adivinar el mercado.",
-                    "Solo ejecutas.",
-                    "El robot es mejor inversor que tú porque carece de emociones."
-                ]
-            },
-            {
-                "type": "h4",
-                "text": "Protocolo de acción del capítulo quince"
-            },
-            {
-                "type": "p",
-                "sentences": [
-                    "Conviértete en un cíborg financiero."
-                ]
-            },
-            {
-                "type": "p",
-                "sentences": [
-                    "**Uno:** Sincronización.",
-                    "Cambia la fecha de tus facturas para que se cobren dos o tres días después de tu nómina.",
-                    "Agrupa el dolor."
-                ]
-            },
-            {
-                "type": "p",
-                "sentences": [
-                    "**Dos:** La Orden Permanente.",
-                    "Configura una transferencia automática a tu bróker el día uno.",
-                    "Ponle un nombre motivador: \"Fondo Libertad\"."
-                ]
-            },
-            {
-                "type": "p",
-                "sentences": [
-                    "**Tres:** El Aumento Automático.",
-                    "Prométete que cada vez que te suben el sueldo, subirás la transferencia automática un cincuenta por ciento de esa subida antes de acostumbrarte al nuevo nivel de vida."
-                ]
-            },
-            {
-                "type": "hr"
             }
         ]
     },
     {
-        "title": "CAPÍTULO XVI: El entorno te define",
+        "title": "Capítulo 14: Diversificación y sesgo de exceso de confianza",
         "sections": [
             {
                 "type": "p",
                 "sentences": [
-                    "Capítulo dieciséis.",
-                    "El entorno te define: Eres el promedio de las cinco carteras con las que te rodeas.",
-                    "Eres el promedio de las cinco personas con las que pasas más tiempo.",
-                    "Si tus amigos gastan dinero que no tienen en tonterías, tú harás lo mismo por ósmosis."
+                    "Capítulo XIV. Diversificación y sesgo de exceso de confianza",
+                    "Por qué el ego es, con frecuencia, el mayor riesgo de una cartera",
+                    "La creencia de \"sé identificar qué empresa va a triunfar\" es una de las formas más comunes de exceso de confianza en finanzas personales. La evidencia estadística es clara al respecto: compañías que en su momento parecían dominantes —Kodak, Nokia, entre muchas otras— desaparecieron o perdieron la mayor parte de su valor. Concentrar el patrimonio en pocos nombres exige, además, una vigilancia constante que la mayoría de las personas no está en condiciones de sostener.",
+                    "\"No busques la aguja, compra el pajar\"",
+                    "La frase se atribuye a John Bogle, fundador de Vanguard y pionero de la inversión indexada. La lógica detrás de ella tiene respaldo empírico: la rentabilidad de un mercado amplio suele estar concentrada en un número reducido de compañías extraordinarias, mientras la mayoría del resto tiene un desempeño mediocre o negativo. Comprar un fondo indexado amplio garantiza estar expuesto a esas pocas compañías ganadoras, sin necesidad de identificarlas de antemano — algo que, según numerosos estudios sobre gestión activa, ni siquiera la mayoría de los profesionales consigue de forma consistente.",
+                    "El sesgo local",
+                    "Invertir exclusivamente en el mercado del propio país concentra el riesgo de forma innecesaria: economías como la española o la mexicana representan, cada una, una fracción muy pequeña del producto mundial. Si esa economía entra en una crisis severa, el riesgo de perder el empleo y el de ver caer las inversiones se correlacionan, en lugar de compensarse. Un fondo que replique un índice mundial amplio —como el MSCI World, centrado en mercados desarrollados, o el MSCI ACWI, que añade mercados emergentes— reparte esa exposición entre miles de compañías de decenas de países.",
+                    "Un matiz necesario",
+                    "Existen inversores que han superado al mercado de forma sostenida durante décadas —Warren Buffett es el ejemplo más citado— mediante una selección concentrada de negocios. Pero son, estadísticamente, la excepción dentro de un universo mucho más amplio de gestores e inversores particulares que lo intentaron y no lo lograron; atribuir ese resultado únicamente a la habilidad, sin considerar el papel del azar y del sesgo de supervivencia en la muestra, es un error habitual. Para quien no dedica su vida profesional a analizar negocios individuales con ese nivel de profundidad, la diversificación amplia sigue siendo, con la evidencia disponible, la estrategia con mejor relación entre resultado esperado y riesgo asumido.",
+                    "Aplicación práctica",
+                    "Dos pasos para simplificar la cartera sin renunciar a la exposición al mercado.",
+                    "1. Cuestiona cada posición individual. Por cada acción concreta en tu cartera, pregúntate honestamente si dispones de una ventaja de información o análisis real frente al mercado. Si la respuesta es no, considera trasladar ese capital a un fondo indexado.",
+                    "2. Elige un fondo indexado global. Un fondo que replique un índice mundial amplio ofrece, con un solo instrumento, exposición a miles de las mayores empresas del planeta."
                 ]
-            },
-            {
-                "type": "h4",
-                "text": "La Teoría del Cubo de Cangrejos"
-            },
-            {
-                "type": "p",
-                "sentences": [
-                    "Si intentas salir del cubo, es decir, ahorrar, invertir y mejorar, tus amigos \"cangrejos\" intentarán bajarte.",
-                    "Te dirán: \"Te has vuelto un aburrido\" o \"El dinero te está cambiando\".",
-                    "Lo hacen porque tu éxito refleja su fracaso.",
-                    "Prepárate para dejar atrás a gente que quieres pero que te arruina."
-                ]
-            },
-            {
-                "type": "h4",
-                "text": "De qué se habla en tu mesa"
-            },
-            {
-                "type": "p",
-                "sentences": [
-                    "**Primero,** en un entorno de escasez suele hablarse de Personas, es decir, de cotilleos y críticas."
-                ]
-            },
-            {
-                "type": "p",
-                "sentences": [
-                    "**Segundo,** en un entorno de clase media suele hablarse de Cosas, como coches, deportes, eventos y compras."
-                ]
-            },
-            {
-                "type": "p",
-                "sentences": [
-                    "**Tercero,** en un entorno orientado al largo plazo suele hablarse de Ideas, esto es, de negocios, inversiones, tendencias y futuro.",
-                    "Si en tu mesa solo se habla de fútbol o de chismes, cambia de mesa."
-                ]
-            },
-            {
-                "type": "h4",
-                "text": "Protocolo de acción del capítulo dieciséis"
-            },
-            {
-                "type": "p",
-                "sentences": [
-                    "Limpieza de círculo."
-                ]
-            },
-            {
-                "type": "p",
-                "sentences": [
-                    "**Uno:** Auditoría de Vampiros.",
-                    "Haz una lista de tus amigos.",
-                    "Pon un signo de más si te dan energía y crecimiento, y un signo de menos si te cuestan dinero y energía.",
-                    "Reduce el tiempo con los del signo de menos un ochenta por ciento."
-                ]
-            },
-            {
-                "type": "p",
-                "sentences": [
-                    "**Dos:** La Regla del \"No\" Financiero.",
-                    "Si te proponen un plan caro, di: \"No está en mi presupuesto\".",
-                    "Quien se enfade es un cangrejo."
-                ]
-            },
-            {
-                "type": "p",
-                "sentences": [
-                    "**Tres:** Compra un Entorno Nuevo.",
-                    "Si no tienes amigos ricos, paga por ellos.",
-                    "Ve a conferencias, cursos y clubes.",
-                    "Es una inversión, no un gasto."
-                ]
-            },
-            {
-                "type": "hr"
             }
         ]
     },
     {
-        "title": "CAPÍTULO XVII: Suficiente es una cifra",
+        "title": "Capítulo 15: Automatizar para no depender de la fuerza de voluntad",
         "sections": [
             {
                 "type": "p",
                 "sentences": [
-                    "Capítulo diecisiete.",
-                    "Suficiente es una cifra: Si no sabes cuándo parar, nunca serás libre.",
-                    "Tener dinero es saldo bancario.",
-                    "Ser rico es no necesitar más.",
-                    "El capitalismo mueve la meta constantemente.",
-                    "Cuando ganas cien, quieres doscientos.",
-                    "Es la cinta de correr hedónica.",
-                    "Si no defines tu \"Suficiente\", correrás hasta morir de agotamiento."
+                    "Capítulo XV. Automatizar para no depender de la fuerza de voluntad",
+                    "Sistemas que no dependen del estado de ánimo del día",
+                    "La fuerza de voluntad se comporta, según una influyente línea de investigación en psicología cognitiva conocida como \"agotamiento del ego\", de forma similar a un recurso limitado que se agota a lo largo del día —aunque conviene saber que esta teoría ha sido cuestionada por estudios de replicación a gran escala en la última década, y su mecanismo exacto sigue siendo objeto de debate académico. Con todo, la experiencia cotidiana de tomar peores decisiones financieras al final de un día largo es ampliamente reconocible, más allá de cuál sea la explicación precisa. La respuesta no es exigirse más disciplina, sino depender menos de ella.",
+                    "Págate a ti mismo primero",
+                    "La administración tributaria no confía en que cada contribuyente aparte voluntariamente su parte de impuestos: la retiene de la nómina antes de que el dinero llegue a manos del trabajador. Aplicar la misma lógica a la inversión cambia la estructura de la ecuación. La fórmula habitual es: ingresos menos gastos es igual a ahorro — y con frecuencia no queda nada. La alternativa es: ingresos menos inversión es igual a lo disponible para gastar, tratando la inversión como una obligación que se paga la primera, no como lo que sobra al final.",
+                    "Fatiga de decisión",
+                    "Steve Jobs y otras figuras conocidas por simplificar decisiones triviales —como qué ropa vestir cada día— lo hacían para reservar la capacidad de decisión para lo que realmente la requería. Automatizar las finanzas elimina cientos de microdecisiones anuales: la inversión ocurre el mismo día cada mes, sin necesidad de decidir de nuevo, de dudar o de intentar anticipar el mercado.",
+                    "Un matiz necesario",
+                    "Automatizar no equivale a dejar de prestar atención por completo. Un sistema automatizado sigue necesitando una revisión periódica —al menos una vez al año— para comprobar que sigue alineado con los objetivos, que las comisiones no se han disparado, o que un cambio vital importante no requiere un ajuste. La automatización elimina la fricción diaria, no la responsabilidad de supervisión de fondo.",
+                    "Aplicación práctica",
+                    "Tres pasos para que el sistema trabaje sin depender del ánimo diario.",
+                    "1. Ajusta el calendario de pagos. Alinea las fechas de cobro de tus facturas principales con los días posteriores a tu nómina, para reducir la carga mental de gestionarlas por separado.",
+                    "2. Programa una transferencia automática el día uno. Dirígela a tu cuenta de inversión, con un nombre que refuerce el propósito, como \"fondo de libertad\".",
+                    "3. Vincula los aumentos de sueldo a un aumento automático del ahorro. Comprométete de antemano a destinar un porcentaje fijo de cada subida a la transferencia automática, antes de acostumbrarte al nuevo nivel de ingreso."
                 ]
-            },
-            {
-                "type": "h4",
-                "text": "La Conexión con el Número de la Libertad o La Regla del cuatro por ciento"
-            },
-            {
-                "type": "p",
-                "sentences": [
-                    "Para saber cuánto es \"Suficiente\", multiplica tus gastos anuales ideales por veinticinco.",
-                    "Por ejemplo: si necesitas cuarenta mil al año para vivir bien, necesitas un millón invertido.",
-                    "El día que llegues a esa cifra, eres libre.",
-                    "Trabajar más allá de eso por dinero es estupidez; estás vendiendo tiempo de vida, que te queda poco, por dinero, que ya no necesitas."
-                ]
-            },
-            {
-                "type": "h4",
-                "text": "La Riqueza Relativa frente a la Absoluta"
-            },
-            {
-                "type": "p",
-                "sentences": [
-                    "Deja de mirar quién tiene el barco más grande.",
-                    "Mira quién es más libre.",
-                    "El tipo con cincuenta millones que tiene que contestar llamadas a las tres de la mañana es más pobre que el tipo con dos millones que está pescando un martes sin móvil."
-                ]
-            },
-            {
-                "type": "h4",
-                "text": "Protocolo de acción del capítulo diecisiete"
-            },
-            {
-                "type": "p",
-                "sentences": [
-                    "Calcula tu salida."
-                ]
-            },
-            {
-                "type": "p",
-                "sentences": [
-                    "**Uno:** Coste de Vida Ideal.",
-                    "Calcula cuánto cuesta tu vida soñada sin lujos absurdos, pero cómoda."
-                ]
-            },
-            {
-                "type": "p",
-                "sentences": [
-                    "**Dos:** Tu Número de Libertad.",
-                    "Multiplica esa cifra anual por veinticinco.",
-                    "Escríbelo.",
-                    "Ese es tu objetivo."
-                ]
-            },
-            {
-                "type": "p",
-                "sentences": [
-                    "**Tres:** Visualiza el Freno.",
-                    "Prométete a ti mismo que cuando llegues ahí, levantarás el pie del acelerador.",
-                    "Dejarás de trabajar por obligación."
-                ]
-            },
-            {
-                "type": "hr"
             }
         ]
     },
     {
-        "title": "CAPÍTULO XVIII: La paciencia paga dividendos",
+        "title": "Capítulo 16: El entorno social y las finanzas",
         "sections": [
             {
                 "type": "p",
                 "sentences": [
-                    "Capítulo dieciocho.",
-                    "La paciencia paga dividendos: El aburrimiento como señal de éxito.",
-                    "En inversión, Esfuerzo no es igual a Resultado.",
-                    "Cuantos más tocas tu cartera, peor te va.",
-                    "La pereza es una ventaja competitiva."
+                    "Capítulo XVI. El entorno social y las finanzas",
+                    "Por qué el círculo cercano influye más de lo que se reconoce",
+                    "Existe evidencia consistente, desde el trabajo de los sociólogos Nicholas Christakis y James Fowler sobre contagio social de conductas, de que hábitos como el gasto, el ahorro o incluso el aumento de peso se propagan, en cierta medida, entre las personas de una misma red social. No se trata de que el entorno determine el destino de nadie, sino de que su influencia es real y, con frecuencia, invisible para quien la experimenta.",
+                    "La presión social hacia la conformidad",
+                    "Cuando una persona empieza a ahorrar, invertir y cambiar hábitos de consumo dentro de un grupo que no lo hace, es habitual encontrar cierta resistencia: comentarios sobre haberse vuelto \"aburrido\" o \"diferente\". No siempre responde a mala intención; con frecuencia refleja, sin que la otra persona lo articule así, una comparación incómoda con su propia situación. Entender el mecanismo ayuda a no tomarlo como algo personal, y a decidir con calma cuánto peso darle.",
+                    "De qué se conversa",
+                    "•  Un patrón habitual en entornos de escasez gira en torno a personas: comentarios y juicios sobre terceros.",
+                    "•  Un patrón habitual en entornos de clase media gira en torno a cosas: coches, eventos, compras.",
+                    "•  Un patrón habitual en entornos orientados al largo plazo gira en torno a ideas: proyectos, inversiones, tendencias.",
+                    "No es una jerarquía moral de personas, sino una observación sobre qué temas dominan una conversación — y vale la pena notar hacia dónde se inclina la propia mesa habitual.",
+                    "Un matiz necesario",
+                    "Es importante no convertir esta idea en una excusa para juzgar o alejarse de personas que atraviesan dificultades económicas reales — eso sería confundir causa con circunstancia. El entorno influye en los hábitos, pero no define el valor de una amistad ni la moralidad de quien tiene menos. El ejercicio útil no es clasificar a las personas cercanas en categorías, sino ser consciente de qué normas de gasto y ahorro se están absorbiendo por defecto, y decidir de forma deliberada cuáles conservar.",
+                    "Aplicación práctica",
+                    "Dos ejercicios para gestionar la influencia del entorno con intención, no por inercia.",
+                    "1. Haz un balance honesto de tu círculo cercano. Sin juzgar a nadie, identifica qué relaciones te aportan energía y perspectiva de crecimiento, y cuáles refuerzan sistemáticamente hábitos de gasto que no compartes.",
+                    "2. Practica decir que un plan no encaja en tu presupuesto. Es una frase legítima y cada vez más común; quien reacciona mal ante ella suele revelar más sobre su propia relación con el dinero que sobre la tuya."
                 ]
-            },
-            {
-                "type": "h4",
-                "text": "El Jardinero frente al Carpintero"
-            },
-            {
-                "type": "p",
-                "sentences": [
-                    "No seas carpintero, que tiene que golpear la madera constantemente.",
-                    "Sé jardinero.",
-                    "Planta la semilla, es decir, el fondo indexado, riega mediante tu aportación mensual y espera.",
-                    "Si escarbas la tierra cada día para ver si crece, matas la planta.",
-                    "El bambú chino tarda cinco años en salir a la superficie, pero luego crece veinticinco metros en seis semanas.",
-                    "Tu riqueza hará lo mismo."
-                ]
-            },
-            {
-                "type": "h4",
-                "text": "El Aburrimiento como Filtro"
-            },
-            {
-                "type": "p",
-                "sentences": [
-                    "Si te diviertes invirtiendo, es un hobby caro.",
-                    "Si te aburres, es un negocio rentable.",
-                    "El aburrimiento significa que tu sistema está automatizado y no hay drama.",
-                    "El aburrimiento es el sonido del dinero creciendo."
-                ]
-            },
-            {
-                "type": "h4",
-                "text": "Protocolo de acción del capítulo dieciocho"
-            },
-            {
-                "type": "p",
-                "sentences": [
-                    "Entrena la paciencia."
-                ]
-            },
-            {
-                "type": "p",
-                "sentences": [
-                    "**Uno:** Dieta de Información.",
-                    "Borra la aplicación del bróker de la pantalla principal de tu móvil.",
-                    "Mírala solo una vez al mes en el ordenador."
-                ]
-            },
-            {
-                "type": "p",
-                "sentences": [
-                    "**Dos:** La Lista de Espera.",
-                    "Si sientes pánico y quieres vender todo, espera treinta días.",
-                    "Escribe tu decisión en un papel y guárdalo.",
-                    "En treinta días, el pánico habrá pasado y te habrás ahorrado un error."
-                ]
-            },
-            {
-                "type": "hr"
             }
         ]
     },
     {
-        "title": "CAPÍTULO XIX: Protege el castillo",
+        "title": "Capítulo 17: Definir el \"suficiente\"",
         "sections": [
             {
                 "type": "p",
                 "sentences": [
-                    "Capítulo diecinueve.",
-                    "Protege el castillo: Seguros, legalidad y cómo no perderlo todo.",
-                    "Cuesta diez veces más mantener la riqueza que crearla.",
-                    "El mundo está lleno de depredadores: demandas, divorcios, inflación, estafas.",
-                    "Tienes que cavar el foso."
+                    "Capítulo XVII. Definir el \"suficiente\"",
+                    "Sin una meta explícita, no hay punto de llegada posible",
+                    "Tener dinero es un saldo bancario. Ser financieramente libre es no necesitar generar más ingresos para sostener el nivel de vida deseado. Sin una definición explícita de \"suficiente\", la meta se desplaza de forma indefinida: al alcanzar una cifra, la aspiración simplemente se duplica.",
+                    "La regla del cuatro por ciento",
+                    "Un método habitual para estimar el capital necesario para la independencia financiera es multiplicar el gasto anual deseado por veinticinco, lo que equivale a asumir una tasa de retirada sostenible cercana al 4 % anual — una cifra derivada del llamado estudio Trinity, de finales de los años noventa, sobre carteras diversificadas y horizontes de treinta años. Por ejemplo: si el gasto anual deseado es de 40.000, el capital objetivo sería de un millón invertido.",
+                    "Riqueza relativa frente a riqueza absoluta",
+                    "Comparar el patrimonio con el de otros —\"quién tiene el barco más grande\"— es una trampa sin fin, porque siempre habrá alguien con más. Una comparación más útil es sobre el grado de libertad real: una persona con un patrimonio menor pero sin obligaciones que la fuercen a responder llamadas de trabajo fuera de horario puede estar, en la práctica, en una posición más libre que otra con un patrimonio mucho mayor pero sin margen de desconexión.",
+                    "Un matiz necesario",
+                    "La regla del 4 % ha sido objeto de un debate serio dentro de la propia comunidad de planificación financiera. Su validez depende de supuestos concretos —una cartera diversificada, un horizonte de unos treinta años, rentabilidades históricas de mercados desarrollados— que no se cumplen igual en todos los escenarios; algunos análisis más recientes sugieren tasas algo más conservadoras, especialmente para horizontes de retiro muy largos o para quienes retiran fondos en un periodo de partida con valoraciones de mercado altas. Es una guía útil para hacer una primera estimación, no una garantía matemática exacta para cualquier caso individual.",
+                    "Aplicación práctica",
+                    "Tres pasos para poner una cifra concreta a tu propio \"suficiente\".",
+                    "1. Estima tu coste de vida ideal. Calcula, con realismo, cuánto necesitarías al año para vivir bien, sin excesos innecesarios pero también sin privaciones.",
+                    "2. Calcula tu número de libertad. Multiplica esa cifra anual por veinticinco como primera aproximación, ajustándola después según tu horizonte y tu tolerancia al riesgo.",
+                    "3. Decide de antemano qué harás al llegar. Definir con anticipación el cambio de ritmo que te permitirás al alcanzar esa cifra evita que la meta siga desplazándose sin fin."
                 ]
-            },
-            {
-                "type": "h4",
-                "text": "El Seguro es un Paracaídas"
-            },
-            {
-                "type": "p",
-                "sentences": [
-                    "No es un gasto, es transferencia de riesgo.",
-                    "Necesitas tres seguros obligatorios: primero, Salud, para no arruinarte en hospitales; segundo, Responsabilidad Civil, por si te demandan; tercero, Vida, solo si tienes hijos o dependientes."
-                ]
-            },
-            {
-                "type": "h4",
-                "text": "El Acuerdo Prenupcial"
-            },
-            {
-                "type": "p",
-                "sentences": [
-                    "El cincuenta por ciento de los matrimonios acaban en divorcio.",
-                    "Casarse en gananciales siendo inversor es un riesgo inaceptable.",
-                    "Haz separación de bienes.",
-                    "Es el contrato más romántico: \"Te quiero a ti, no a tu dinero\"."
-                ]
-            },
-            {
-                "type": "h4",
-                "text": "Ciberseguridad"
-            },
-            {
-                "type": "p",
-                "sentences": [
-                    "Si tu contraseña es \"uno, dos, tres, cuatro, cinco, seis\", estás regalando tu patrimonio.",
-                    "Usa un gestor de contraseñas y activa el Doble Factor de Autenticación en todas tus cuentas financieras."
-                ]
-            },
-            {
-                "type": "h4",
-                "text": "Protocolo de acción del capítulo diecinueve"
-            },
-            {
-                "type": "p",
-                "sentences": [
-                    "Defensa."
-                ]
-            },
-            {
-                "type": "p",
-                "sentences": [
-                    "**Uno:** El \"Día de la Muerte\".",
-                    "Crea un documento de emergencia.",
-                    "Si mueres mañana, ¿sabe tu familia dónde están las claves y qué seguros tienes?"
-                ]
-            },
-            {
-                "type": "p",
-                "sentences": [
-                    "**Dos:** Revisa Beneficiarios.",
-                    "Asegúrate de que tus seguros de vida no estén a nombre de tu ex-pareja de hace veinte años."
-                ]
-            },
-            {
-                "type": "hr"
             }
         ]
     },
     {
-        "title": "CAPÍTULO XX: El Capital Invisible",
+        "title": "Capítulo 18: Paciencia como estrategia",
         "sections": [
             {
                 "type": "p",
                 "sentences": [
-                    "Capítulo veinte.",
-                    "El Capital Invisible: La riqueza final es la tranquilidad de decir \"No\".",
-                    "Imagina al Hombre A, con diez millones, úlcera y estrés; y al Hombre B, con un millón, tiempo libre y paz.",
-                    "Tú quieres ser el B."
+                    "Capítulo XVIII. Paciencia como estrategia",
+                    "Por qué el aburrimiento suele ser una buena señal en inversión",
+                    "En inversión, el esfuerzo y el resultado no están correlacionados de la forma en que se correlacionan en otras áreas de la vida. Con frecuencia, cuanto más se manipula una cartera, peor es el resultado neto: los costes de transacción, los impuestos por rotación y los errores de sincronización erosionan la rentabilidad.",
+                    "Cultivar en vez de construir",
+                    "Una analogía útil: gestionar una inversión de largo plazo se parece más a cultivar una planta que a construir un mueble. Se planta la semilla —el fondo indexado—, se riega mediante aportaciones periódicas, y se espera. Desenterrar la planta cada semana para comprobar si la raíz ha crecido no acelera el proceso; lo daña. El bambú es un ejemplo citado con frecuencia: pasa varios años sin mostrar crecimiento visible sobre la superficie, antes de crecer varios metros en pocas semanas una vez que la raíz está establecida.",
+                    "El aburrimiento como filtro",
+                    "Si una inversión genera emoción constante, es una señal razonable de que se está operando con una frecuencia más propia de la especulación que de la inversión de largo plazo. El aburrimiento, en este contexto, no es un problema: es la evidencia de que el sistema está funcionando de forma automática, sin intervención innecesaria.",
+                    "Un matiz necesario",
+                    "\"No tocar la cartera\" no significa ignorarla por completo durante décadas. El rebalanceo periódico —ajustar la proporción entre distintos tipos de activos una o dos veces al año, o cuando se desvían de forma notable del objetivo— es una práctica recomendada que sí requiere una intervención puntual y deliberada. La distinción importante es entre la intervención planificada y programada, y la reacción impulsiva ante una noticia o un movimiento de mercado puntual.",
+                    "Aplicación práctica",
+                    "Dos hábitos para sostener la paciencia cuando más cuesta.",
+                    "1. Reduce la exposición a la aplicación del bróker. Revisarla con menos frecuencia reduce la probabilidad de reaccionar de forma impulsiva a movimientos de corto plazo.",
+                    "2. Aplica una regla de espera ante el pánico. Si sientes el impulso de vender todo, escribe la decisión y espera treinta días antes de ejecutarla. En la mayoría de los casos, el impulso pierde fuerza antes de que se cumpla el plazo."
                 ]
-            },
-            {
-                "type": "h4",
-                "text": "El Poder del \"No\""
-            },
+            }
+        ]
+    },
+    {
+        "title": "Capítulo 19: Proteger lo construido",
+        "sections": [
             {
                 "type": "p",
                 "sentences": [
-                    "El dividendo más alto del dinero es la autonomía.",
-                    "El Capital Invisible es la capacidad de mirar a un jefe tóxico, a un cliente abusivo o a un compromiso social absurdo y decir: \"No\".",
-                    "El dinero compra el silencio del mundo para que puedas escuchar tu propia voz."
+                    "Capítulo XIX. Proteger lo construido",
+                    "Seguros, planificación legal y gestión de riesgo",
+                    "Construir patrimonio y protegerlo requieren competencias distintas, y la segunda suele descuidarse. Demandas, divorcios mal planificados, fraudes y la propia inflación son riesgos reales frente a un patrimonio ya acumulado, y conviene abordarlos con la misma seriedad que la fase de acumulación.",
+                    "El seguro como transferencia de riesgo",
+                    "Un seguro bien elegido no es un gasto superfluo: es una transferencia de riesgo desde el propio patrimonio hacia una aseguradora, a cambio de una prima. Tres coberturas suelen considerarse prioritarias:",
+                    "•  Salud, para evitar que un evento médico grave comprometa el patrimonio acumulado.",
+                    "•  Responsabilidad civil, que cubre reclamaciones de terceros por daños involuntarios.",
+                    "•  Vida, relevante sobre todo si existen personas dependientes del ingreso del asegurado.",
+                    "Planificación patrimonial ante el matrimonio",
+                    "Con tasas de divorcio elevadas en la mayoría de países desarrollados —en torno al cuarenta o cincuenta por ciento según el país y el periodo analizado—, planificar el régimen económico del matrimonio con antelación es una decisión de gestión de riesgo, no una falta de compromiso emocional. Un acuerdo prenupcial claro puede evitarle a ambas partes años de litigio en caso de ruptura.",
+                    "Seguridad digital de las finanzas",
+                    "Contraseñas débiles o repetidas entre servicios son, en la práctica, una puerta abierta al patrimonio digital. Usar un gestor de contraseñas y activar la autenticación en dos factores en todas las cuentas financieras son medidas de coste bajo y beneficio alto.",
+                    "Un matiz necesario",
+                    "El exceso de seguro también tiene un coste de oportunidad: pagar primas por coberturas redundantes, o de un importe muy superior al riesgo real, es tan ineficiente como no estar cubierto. El objetivo no es maximizar el número de pólizas, sino identificar los riesgos que podrían ser financieramente catastróficos si se materializan sin cobertura, y asegurar específicamente esos.",
+                    "Aplicación práctica",
+                    "Dos pasos de gestión de riesgo que se posponen con frecuencia hasta que es demasiado tarde.",
+                    "1. Crea un documento de continuidad familiar. Reúne en un solo lugar seguro la información esencial —cuentas, pólizas, claves de acceso— y asegúrate de que al menos otra persona de confianza sabe cómo acceder a ella en caso necesario.",
+                    "2. Revisa los beneficiarios designados en tus pólizas. Es habitual olvidar actualizarlos tras un cambio importante en la vida personal, con consecuencias legales no deseadas."
                 ]
-            },
-            {
-                "type": "h4",
-                "text": "Tú eres el Activo"
-            },
+            }
+        ]
+    },
+    {
+        "title": "Capítulo 20: Capital Invisible",
+        "sections": [
             {
                 "type": "p",
                 "sentences": [
-                    "Si mañana hubiera un cataclismo y perdieras todo tu dinero, volverías a ser rico en cinco años.",
-                    "Porque ya tienes el conocimiento, la disciplina y la mentalidad.",
-                    "Nadie te puede robar eso.",
-                    "Ese es tu verdadero Capital Invisible.",
-                    "No es lo que tienes en el bolsillo, es en quién te has convertido."
+                    "Capítulo XX. Capital Invisible",
+                    "La autonomía como forma final de riqueza",
+                    "Considera dos situaciones hipotéticas: una persona con un patrimonio de diez millones, sometida a un nivel de estrés constante y con problemas de salud derivados de ello; y otra con un patrimonio de un millón, con tiempo disponible y una vida tranquila. En términos de bienestar, la segunda posición es, para la mayoría de las personas, preferible.",
+                    "El valor de poder decir que no",
+                    "El beneficio más alto que ofrece el dinero no es el consumo, sino la autonomía: la capacidad de rechazar un entorno laboral tóxico, un cliente abusivo o un compromiso social que no aporta valor, sin que esa decisión ponga en riesgo la estabilidad financiera. El dinero, en ese sentido, no compra objetos; compra la posibilidad de decidir con libertad.",
+                    "El propio conocimiento como activo",
+                    "Si el patrimonio material desapareciera por completo mañana, alguien que ha interiorizado los hábitos y principios descritos en este libro tiene, en términos estadísticos, muchas más probabilidades de reconstruirlo con relativa rapidez que alguien que llegó a esa cifra por azar o herencia sin desarrollar esos hábitos. El conocimiento y la disciplina no se pueden embargar ni heredar por otra persona en tu nombre: son, en un sentido literal, el activo más difícil de perder.",
+                    "Qué legar",
+                    "Dejar solo dinero a la siguiente generación, sin transmitir los hábitos que permiten conservarlo y hacerlo crecer, suele producir el resultado documentado por investigadores en transición patrimonial familiar como Roy Williams y Vic Preisser: una proporción muy alta de fortunas heredadas se dilapida antes de la tercera generación. El legado más duradero no es la cifra que se transmite, sino la educación financiera que permite mantenerla y multiplicarla.",
+                    "Una última nota honesta",
+                    "Nada de lo anterior implica que el dinero resuelva todos los problemas, ni que su ausencia sea la única causa de infelicidad. La evidencia en economía de la felicidad —el trabajo de Daniel Kahneman y Angus Deaton, entre otros— sugiere que la seguridad financiera básica sí se correlaciona con mayor bienestar, pero que ese efecto se atenúa notablemente por encima de un umbral de ingresos relativamente moderado. El Capital Invisible descrito en este libro es una herramienta para ganar autonomía y reducir la ansiedad asociada al dinero; no es, ni pretende ser, un sustituto de las relaciones personales, la salud o el sentido, que siguen dependiendo de factores que ningún patrimonio, por grande que sea, garantiza por sí solo.",
+                    "Cierre y aplicación final",
+                    "Tres ejercicios de cierre para convertir la lectura en una decisión concreta.",
+                    "1. Escribe con qué objetivo trabajas. No para renunciar mañana, sino para tener claro si trabajas por necesidad o por elección — y qué cifra marcaría la diferencia entre ambas.",
+                    "2. Describe tu día ordinario ideal. No una vida extraordinaria e inalcanzable, sino un martes cualquiera que estarías dispuesto a repetir de forma indefinida.",
+                    "3. Cierra el libro y automatiza al menos una cosa hoy mismo. El conocimiento que no se traduce en una sola acción concreta tiende a evaporarse en un par de semanas. Empieza por lo más pequeño que puedas ejecutar hoy."
                 ]
-            },
-            {
-                "type": "h4",
-                "text": "El Legado"
-            },
+            }
+        ]
+    },
+    {
+        "title": "Cierre",
+        "sections": [
             {
                 "type": "p",
                 "sentences": [
-                    "No dejes a tus hijos solo dinero; los harás inútiles.",
-                    "Déjales el Sistema Operativo.",
-                    "Enséñales a pescar.",
-                    "Tu mayor legado es la educación financiera que hará que tu apellido prospere por generaciones."
+                    "Cierre",
+                    "Este libro no pretende agotar el tema, sino ofrecer un punto de partida honesto: los principios importan más que las tácticas, y los hábitos sostenidos importan más que cualquier golpe de suerte puntual. El resto depende, como se ha repetido a lo largo de estas páginas, de la ejecución."
                 ]
-            },
-            {
-                "type": "h4",
-                "text": "Protocolo de acción final"
-            },
+            }
+        ]
+    },
+    {
+        "title": "Glosario",
+        "sections": [
             {
                 "type": "p",
                 "sentences": [
-                    "El juego ha terminado.",
-                    "Empieza la realidad."
+                    "Glosario",
+                    "Aversión a la pérdida. Sesgo por el cual el malestar de perder una cantidad de dinero se percibe, en promedio, entre 1,5 y 2,5 veces más intenso que el placer de ganar la misma cantidad (Kahneman y Tversky).",
+                    "Capital Invisible. El conjunto de hábitos, conocimientos y estructuras mentales —no visibles en ningún balance— que sostienen la acumulación y la conservación de patrimonio a largo plazo.",
+                    "Descuento hiperbólico. Tendencia a valorar una recompensa inmediata de forma desproporcionada frente a una recompensa mayor pero futura.",
+                    "Diversificación. Distribuir el capital entre distintos activos, sectores o países para reducir el riesgo de que el resultado dependa de un único emisor o mercado.",
+                    "Fondo de emergencia. Ahorro líquido, separado y de bajo riesgo destinado a cubrir entre tres y doce meses de gastos esenciales ante un imprevisto, sin necesidad de vender inversiones ni recurrir a deuda.",
+                    "Inflación de estilo de vida. El aumento del gasto que acompaña automáticamente a un aumento de ingresos, hasta el punto de anular el margen adicional de ahorro.",
+                    "Interés compuesto. El interés que se calcula no solo sobre el capital inicial, sino también sobre los intereses ya generados en periodos anteriores, lo que produce un crecimiento exponencial en el tiempo.",
+                    "Patrimonio neto. El valor total de los activos de una persona menos el total de sus deudas; la medida más fiable de riqueza real, a diferencia del ingreso.",
+                    "Promediado de coste en dólares (DCA). Estrategia de invertir una cantidad fija de forma periódica, con independencia del precio del mercado en cada momento, para promediar el precio de compra a lo largo del tiempo.",
+                    "Regla del 4 %. Método orientativo para estimar el capital necesario para la independencia financiera: multiplicar el gasto anual deseado por veinticinco, asumiendo una tasa de retirada sostenible cercana al 4 % anual.",
+                    "Regla del 72. Fórmula aproximada para estimar los años necesarios para duplicar un capital, dividiendo 72 entre la tasa de interés anual.",
+                    "Riesgo (frente a volatilidad). La posibilidad de una pérdida permanente de capital, en contraste con la volatilidad, que es la fluctuación temporal de precio sin pérdida realizada.",
+                    "Sesgo de supervivencia. Error de razonamiento que consiste en sacar conclusiones a partir de los casos de éxito visibles, ignorando la existencia de muchos más casos de fracaso que no se conocen ni se cuentan."
                 ]
-            },
+            }
+        ]
+    },
+    {
+        "title": "Bibliografía y lecturas recomendadas",
+        "sections": [
             {
                 "type": "p",
                 "sentences": [
-                    "**Uno:** La Carta de Dimisión Mental.",
-                    "Escribe tu renuncia hoy mismo.",
-                    "Guárdala en un sobre.",
-                    "Ya no trabajas porque no tienes opción; trabajas para financiar tu salida."
+                    "Bibliografía y lecturas recomendadas",
+                    "Bogle, John C. El pequeño libro para invertir con sentido común. Deusto, 2007.",
+                    "Christakis, Nicholas A. y Fowler, James H. Conectados: el sorprendente poder de las redes sociales y cómo nos afectan. Taurus, 2010.",
+                    "Cooley, Philip L.; Hubbard, Carl M. y Walz, Daniel T. \"Retirement Savings: Choosing a Withdrawal Rate That Is Sustainable.\" AAII Journal, 1998 (el llamado \"estudio Trinity\").",
+                    "Diderot, Denis. \"Lamento por mi viejo batín.\" Ensayo, 1769.",
+                    "Ferriss, Timothy. La semana laboral de 4 horas. RBA, 2011 (orig. The 4-Hour Workweek, 2007).",
+                    "Graham, Benjamin. El inversor inteligente. Deusto, edición revisada 2007 (orig. 1949).",
+                    "Kahneman, Daniel. Pensar rápido, pensar despacio. Debate, 2012 (orig. Thinking, Fast and Slow, 2011).",
+                    "Kahneman, Daniel y Tversky, Amos. \"Prospect Theory: An Analysis of Decision under Risk.\" Econometrica, 1979.",
+                    "Kahneman, Daniel y Deaton, Angus. \"High income improves evaluation of life but not emotional well-being.\" Proceedings of the National Academy of Sciences, 2010.",
+                    "Barber, Brad M. y Odean, Terrance. \"Trading Is Hazardous to Your Wealth: The Common Stock Investment Performance of Individual Investors.\" Journal of Finance, 2000.",
+                    "Parkinson, C. Northcote. La ley de Parkinson. 1957.",
+                    "Prelec, Drazen y Simester, Duncan. \"Always Leave Home Without It: A Further Investigation of the Credit-Card Effect on Willingness to Pay.\" Marketing Letters, 2001.",
+                    "Stanley, Thomas J. y Danko, William D. El millonario de la puerta de al lado. Obelisco, 1998 (orig. The Millionaire Next Door, 1996).",
+                    "Taleb, Nassim Nicholas. Antifrágil: las cosas que se benefician del desorden. Paidós, 2013 (orig. Antifragile, 2012).",
+                    "Williams, Roy y Preisser, Vic. Preparing Heirs: Five Steps to a Successful Transition of Family Wealth and Values. Robert D. Reed, 2003."
                 ]
-            },
+            }
+        ]
+    },
+    {
+        "title": "Sobre el autor",
+        "sections": [
             {
                 "type": "p",
                 "sentences": [
-                    "**Dos:** Define tu Martes Perfecto.",
-                    "Describe tu día ideal.",
-                    "La riqueza es vivir ese martes todos los días."
+                    "SOBRE EL AUTOR",
+                    "Albert Sierra es autor y divulgador de finanzas personales y creación de patrimonio, radicado en Ginebra, Suiza. Su trabajo aborda el dinero desde un enfoque práctico y estructural: no como una colección de fórmulas para enriquecerse rápido, sino como un problema de arquitectura mental que puede comprenderse, entrenarse y convertirse en un sistema.",
+                    "Su propuesta se articula en torno a dos pilares: que la riqueza real se construye a partir del Capital Invisible —activos, conocimientos, hábitos y estructuras que generan valor a largo plazo— y que ningún plan financiero perdura si depende de la motivación en lugar de un sistema automatizado.",
+                    "A través de sus libros, Albert Sierra comparte marcos de pensamiento y principios generales para abordar la construcción, protección y transmisión del patrimonio, desde una perspectiva educativa, con criterio independiente y visión de largo plazo. Sus contenidos no sustituyen el asesoramiento profesional individualizado.",
+                    "Todo se puede embargar. Lo aprendido, no."
                 ]
-            },
-            {
-                "type": "p",
-                "sentences": [
-                    "**Tres:** Cierra el Libro y Ejecuta.",
-                    "El conocimiento sin acción es solo ruido.",
-                    "No leas otro libro hasta que hayas automatizado tus cuentas.",
-                    "Empieza hoy.",
-                    "Bienvenido al club del Capital Invisible.",
-                    "Fin.",
-                    "Aquí concluye la producción en audio de El Capital Invisible: La arquitectura psicológica de la riqueza real.",
-                    "Escrito por Albert Sierra.",
-                    "Narrado por su voz digital autorizada.",
-                    "Gracias por escuchar.",
-                    "Recuerda que la información sin ejecución es solo ruido.",
-                    "Cierra el reproductor y empieza a ejecutar hoy mismo."
-                ]
-            },
-            {
-                "type": "hr"
             }
         ]
     }
 ];
 
+
 // Pre-recorded audio files mapping
 const chapterAudios = [
-    "01_Prologo.mp3",
-    "02_Capitulo_1_La_trampa_del_hamster.mp3",
-    "03_Capitulo_2_El_coste_de_la_ignorancia.mp3",
-    "04_Capitulo_3_El_mito_de_la_suerte.mp3",
-    "05_Capitulo_4_La_inflacion_de_estilo_de_vida.mp3",
-    "06_Capitulo_5_Deuda_mala_frente_a_Deuda_mortal.mp3",
-    "07_Capitulo_6_El_presupuesto_no_es_una_dieta.mp3",
-    "08_Capitulo_7_El_fondo_de_emergencia.mp3",
-    "09_Capitulo_8_El_interes_compuesto_es_aburrido.mp3",
-    "10_Capitulo_9_Ahorrar_es_de_perdedores.mp3",
-    "11_Capitulo_10_El_precio_del_tiempo.mp3",
-    "12_Capitulo_11_El_casino_de_la_bolsa.mp3",
-    "13_Capitulo_12_Riesgo_frente_a_Volatilidad.mp3",
-    "14_Capitulo_13_La_falacia_del_ladrillo.mp3",
-    "15_Capitulo_14_Diversificar_no_es_cobardea.mp3",
-    "16_Capitulo_15_Automatizacion_radical.mp3",
-    "17_Capitulo_16_El_entorno_te_define.mp3",
-    "18_Capitulo_17_Suficiente_es_una_cifra.mp3",
-    "19_Capitulo_18_La_paciencia_paga_dividendos.mp3",
-    "20_Capitulo_19_Protege_el_castillo.mp3",
-    "21_Capitulo_20_El_Capital_Invisible.mp3"
+    "00_portada_aviso.mp3",
+    "01_indice.mp3",
+    "02_prologo_introduccion.mp3",
+    "03_capitulo_1.mp3",
+    "04_capitulo_2.mp3",
+    "05_capitulo_3.mp3",
+    "06_capitulo_4.mp3",
+    "07_capitulo_5.mp3",
+    "08_capitulo_6.mp3",
+    "09_capitulo_7.mp3",
+    "10_capitulo_8.mp3",
+    "11_capitulo_9.mp3",
+    "12_capitulo_10.mp3",
+    "13_capitulo_11.mp3",
+    "14_capitulo_12.mp3",
+    "15_capitulo_13.mp3",
+    "16_capitulo_14.mp3",
+    "17_capitulo_15.mp3",
+    "18_capitulo_16.mp3",
+    "19_capitulo_17.mp3",
+    "20_capitulo_18.mp3",
+    "21_capitulo_19.mp3",
+    "22_capitulo_20.mp3",
+    "23_cierre.mp3",
+    "24_glosario.mp3",
+    "25_bibliografia.mp3",
+    "26_sobre_autor.mp3"
 ];
+
+// Pre-recorded audio files mapping
 
 // ==========================================================================
 // STATE MANAGEMENT
