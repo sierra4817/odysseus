@@ -436,7 +436,7 @@ const bookData = [
                     "Aplicación práctica",
                     "Dos pasos para simplificar la cartera sin renunciar a la exposición al mercado.",
                     "1. Cuestiona cada posición individual. Por cada acción concreta en tu cartera, pregúntate honestamente si dispones de una ventaja de información o análisis real frente al mercado. Si la respuesta es no, considera trasladar ese capital a un fondo indexado.",
-                    "2. Elige un fondo indexado global. Un fondo que replique un índice mundial amplio ofrece, con un solo instrumento, exposición a miles de las mayores empresas del planeta."
+                    "2. Elige un fondo indexado global. Un fondo que replique un índice mundial amplio ofrece, con un solo instrumento, exposición a miles de las mayores empresas del planeta. Este ejemplo es ilustrativo y educativo; no constituye una recomendación de inversión personalizada ni sustituye el asesoramiento de una entidad autorizada."
                 ]
             }
         ]
@@ -582,7 +582,7 @@ const bookData = [
                     "Qué legar",
                     "Dejar solo dinero a la siguiente generación, sin transmitir los hábitos que permiten conservarlo y hacerlo crecer, suele producir el resultado documentado por investigadores en transición patrimonial familiar como Roy Williams y Vic Preisser: una proporción muy alta de fortunas heredadas se dilapida antes de la tercera generación. El legado más duradero no es la cifra que se transmite, sino la educación financiera que permite mantenerla y multiplicarla.",
                     "Una última nota honesta",
-                    "Nada de lo anterior implica que el dinero resuelva todos los problemas, ni que su ausencia sea la única causa de infelicidad. La evidencia en economía de la felicidad —el trabajo de Daniel Kahneman y Angus Deaton, entre otros— sugiere que la seguridad financiera básica sí se correlaciona con mayor bienestar, pero que ese efecto se atenúa notablemente por encima de un umbral de ingresos relativamente moderado. El Capital Invisible descrito en este libro es una herramienta para ganar autonomía y reducir la ansiedad asociada al dinero; no es, ni pretende ser, un sustituto de las relaciones personales, la salud o el sentido, que siguen dependiendo de factores que ningún patrimonio, por grande que sea, garantiza por sí solo.",
+                    "Nada de lo anterior implica que el dinero resuelva todos los problemas, ni que su ausencia sea la única causa de infelicidad. La evidencia en economía de la felicidad —el trabajo de Daniel Kahneman y Angus Deaton, entre otros— sugiere que la seguridad financiera básica sí se correlaciona con mayor bienestar, pero que ese efecto se atenúa notablemente por encima de un umbral de ingresos relativamente moderado, si bien investigaciones posteriores han matizado la existencia de ese techo. El Capital Invisible descrito en este libro es una herramienta para ganar autonomía y reducir la ansiedad asociada al dinero; no es, ni pretende ser, un sustituto de las relaciones personales, la salud o el sentido, que siguen dependiendo de factores que ningún patrimonio, por grande que sea, garantiza por sí solo.",
                     "Cierre y aplicación final",
                     "Tres ejercicios de cierre para convertir la lectura en una decisión concreta.",
                     "1. Escribe con qué objetivo trabajas. No para renunciar mañana, sino para tener claro si trabajas por necesidad o por elección — y qué cifra marcaría la diferencia entre ambas.",
@@ -661,9 +661,14 @@ const bookData = [
                 "type": "p",
                 "sentences": [
                     "SOBRE EL AUTOR",
-                    "Albert Sierra es autor y divulgador de finanzas personales y creación de patrimonio, radicado en Ginebra, Suiza. Su trabajo aborda el dinero desde un enfoque práctico y estructural: no como una colección de fórmulas para enriquecerse rápido, sino como un problema de arquitectura mental que puede comprenderse, entrenarse y convertirse en un sistema.",
-                    "Su propuesta se articula en torno a dos pilares: que la riqueza real se construye a partir del Capital Invisible —activos, conocimientos, hábitos y estructuras que generan valor a largo plazo— y que ningún plan financiero perdura si depende de la motivación en lugar de un sistema automatizado.",
-                    "A través de sus libros, Albert Sierra comparte marcos de pensamiento y principios generales para abordar la construcción, protección y transmisión del patrimonio, desde una perspectiva educativa, con criterio independiente y visión de largo plazo. Sus contenidos no sustituyen el asesoramiento profesional individualizado.",
+                    "Albert Sierra es escritor y divulgador, radicado en Ginebra, Suiza. Su trabajo se centra en la intersección entre psicología financiera, comportamiento, desarrollo personal y construcción de patrimonio.",
+                    "A través de sus libros, analiza una pregunta que suele quedar fuera de las conversaciones convencionales sobre dinero: ¿qué ocurre detrás de las decisiones que determinan nuestra relación con el patrimonio?",
+                    "Su enfoque parte de una idea sencilla: la riqueza no depende únicamente de cuánto dinero se gana, sino también de los conocimientos, hábitos, criterios y estructuras que permiten tomar mejores decisiones a lo largo del tiempo.",
+                    "De esta visión nace el concepto de Capital Invisible: aquello que no siempre puede verse desde fuera (conocimientos, capacidades, hábitos, disciplina, activos y estructuras), pero que puede desempeñar un papel fundamental en la construcción y conservación del patrimonio.",
+                    "Su filosofía editorial se aleja de las promesas de enriquecimiento rápido y de las fórmulas aparentemente infalibles. En su lugar, propone desarrollar criterio, comprender los mecanismos que intervienen en las decisiones financieras y construir sistemas capaces de funcionar más allá de la motivación momentánea.",
+                    "Albert Sierra escribe desde una perspectiva educativa y divulgativa. No es asesor financiero, fiscal, jurídico ni gestor de inversiones. Sus publicaciones no constituyen asesoramiento profesional personalizado, recomendaciones de inversión ni instrucciones adaptadas a la situación particular de un lector.",
+                    "Las decisiones financieras, fiscales, jurídicas, patrimoniales o de inversión deben evaluarse de acuerdo con las circunstancias concretas de cada persona y, cuando corresponda, con el asesoramiento de profesionales cualificados.",
+                    "Sus obras se publican bajo el sello Capital Invisible, desde una perspectiva independiente y orientada al pensamiento de largo plazo.",
                     "Todo se puede embargar. Lo aprendido, no."
                 ]
             }
@@ -825,6 +830,7 @@ function renderDashboard() {
     const completedCount = completedChapters.length;
     const progressPercentVal = totalChapters > 0 ? Math.round((completedCount / totalChapters) * 100) : 0;
     
+    document.getElementById('stat-chapters-count').textContent = totalChapters;
     document.getElementById('stat-progress-chapters').textContent = `${completedCount} / ${totalChapters}`;
     document.getElementById('dashboard-progress-percent').textContent = `${progressPercentVal}%`;
     

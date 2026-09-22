@@ -1,0 +1,16 @@
+{
+  "short_name": "Capital Inv.",
+  "name": "Capital Invisible - Lector Inteligente",
+  "icons": [
+    {
+      "src": "cover.jpg",
+      "type": "image/jpeg",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "./index.html",
+  "background_color": "#060608",
+  "display": "standalone",
+  "theme_color": "#060608",
+  "orientation": "portrait"
+}
