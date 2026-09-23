@@ -661,7 +661,7 @@ const bookData = [
                 "type": "p",
                 "sentences": [
                     "SOBRE EL AUTOR",
-                    "Albert Sierra es escritor y divulgador, radicado en Ginebra, Suiza. Su trabajo se centra en la intersección entre psicología financiera, comportamiento, desarrollo personal y construcción de patrimonio.",
+                    "Albert Sierra es escritor y divulgador, radicado en Ginebra, Suiza. Su trabajo se centra en la intersección entre psicología financiera, comportamiento y desarrollo personal.",
                     "A través de sus libros, analiza una pregunta que suele quedar fuera de las conversaciones convencionales sobre dinero: ¿qué ocurre detrás de las decisiones que determinan nuestra relación con el patrimonio?",
                     "Su enfoque parte de una idea sencilla: la riqueza no depende únicamente de cuánto dinero se gana, sino también de los conocimientos, hábitos, criterios y estructuras que permiten tomar mejores decisiones a lo largo del tiempo.",
                     "De esta visión nace el concepto de Capital Invisible: aquello que no siempre puede verse desde fuera (conocimientos, capacidades, hábitos, disciplina, activos y estructuras), pero que puede desempeñar un papel fundamental en la construcción y conservación del patrimonio.",
