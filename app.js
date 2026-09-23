@@ -1181,7 +1181,8 @@ function computeSentenceTimeBoundaries(duration) {
         sentenceTimeBoundaries = [];
         return;
     }
-    const weights = sentencesList.map(s => Math.max(s.length, 1));
+    const SENTENCE_OVERHEAD_CHARS = 15; // aproxima la pausa/respiracion fija entre frases, para que las frases cortas no reciban un peso irreal
+    const weights = sentencesList.map(s => s.length + SENTENCE_OVERHEAD_CHARS);
     const totalWeight = weights.reduce((a, b) => a + b, 0);
     let cumulative = 0;
     sentenceTimeBoundaries = weights.map(w => {
@@ -1190,7 +1191,7 @@ function computeSentenceTimeBoundaries(duration) {
     });
 }
 
-const SENTENCE_SYNC_LAG = 0.6; // segundos: compensa las pausas entre frases que no entran en la estimacion
+const SENTENCE_SYNC_LAG = 0.2; // segundos: compensa las pausas entre frases que no entran en la estimacion
 
 function updateSentenceSync() {
     if (!sentenceTimeBoundaries.length) return;
